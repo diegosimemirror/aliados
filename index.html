@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aliados ante el FEN 2026-2027</title>
-<meta name="description" content="Mapa distrital del Perú con las zonas históricamente afectadas por El Niño, un radar de noticias del FEN 2026-2027, la demanda de cooperación por zona y los aliados de EsSalud.">
+<meta name="description" content="Mapa distrital del Perú con los riesgos del Fenómeno El Niño, un radar de noticias del FEN 2026-2027, los establecimientos de EsSalud, la demanda de cooperación por zona y los aliados.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Public+Sans:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="assets/estilos.css">
@@ -13,8 +13,8 @@
 <header class="topbar"><div class="in">
   <div class="brand"><b>EsSalud</b><span>Cooperación internacional · Fenómeno El Niño 2026-2027</span></div>
   <nav class="topnav" aria-label="Secciones">
-    <a href="#mapa">Mapa</a><a href="#historico">FEN histórico</a><a href="#radar">Radar 2026-27</a>
-    <a href="#demanda">Demanda</a><a href="#aliados">Aliados</a><a href="#niveles">Niveles</a><a href="#tipologias">Tipologías</a><a href="#pipeline">Pipeline</a>
+    <a href="#mapa">Mapa</a><a href="#riesgos">Riesgos</a><a href="#historico">FEN histórico</a><a href="#radar">Radar 2026-27</a>
+    <a href="#demanda">Demanda</a><a href="#aliados">Aliados</a><a href="#niveles">Niveles</a><a href="#tipologias">Tipologías</a>
   </nav>
 </div></header>
 
@@ -22,7 +22,7 @@
   <div class="in">
     <p class="eyebrow">Gestión del riesgo de desastres · Cooperación internacional</p>
     <h1>Aliados y cooperación ante el Fenómeno El Niño 2026-2027</h1>
-    <p class="lead">Dónde golpea el FEN, qué necesitan las zonas afectadas y qué aliados pueden apoyar a EsSalud. Mapa distrital del Perú.</p>
+    <p class="lead">Dónde golpea el FEN y con qué tipo de riesgo, qué establecimientos de EsSalud están expuestos, qué necesitan las zonas afectadas y qué aliados pueden apoyar.</p>
     <div class="status" id="estado"><span class="dot"></span><span>Cargando datos…</span></div>
   </div>
 </section>
@@ -30,6 +30,7 @@
 <div class="stats"><div class="in" aria-live="polite">
   <div class="stat"><b id="k-hist">–</b><span><i style="--c:var(--hist)"></i>distritos con antecedente FEN (matriz)</span></div>
   <div class="stat"><b id="k-act">–</b><span><i style="--c:var(--act)"></i>distritos con reportes FEN 2026-27</span></div>
+  <div class="stat"><b><span id="k-es">–</span><small> de <span id="k-es-tot">–</span></small></b><span>establecimientos de EsSalud en distritos con riesgo</span></div>
   <div class="stat"><b id="k-dem">–</b><span>necesidades de cooperación registradas</span></div>
   <div class="stat"><b id="k-ali">–</b><span>aliados identificados</span></div>
 </div></div>
@@ -39,8 +40,8 @@
   <datalist id="lista-lugares"></datalist>
   <div class="chips" id="capas" role="group" aria-label="Capas del mapa"></div>
   <label class="check"><input type="checkbox" id="solo-nombrados"> Solo distritos nombrados en la matriz</label>
-  <span class="sep" aria-hidden="true"></span>
-  <div class="chips" id="chips" role="group" aria-label="Filtrar por tipología"></div>
+  <div class="chips fila" id="riesgos-chips" role="group" aria-label="Filtrar por tipo de riesgo"></div>
+  <div class="chips fila" id="chips" role="group" aria-label="Filtrar por tipología"></div>
 </div></div>
 
 <main class="in" id="mapa">
@@ -61,6 +62,12 @@
     </div>
     <aside class="card panel" id="panel" aria-live="polite"></aside>
   </div>
+
+  <section class="blk" id="riesgos">
+    <div class="sh"><div><h2>Riesgos asociados al FEN</h2>
+      <p>Siete tipos de riesgo, cada uno en su mapa. Se marcan los distritos con ese riesgo según la matriz de escenarios y el radar 2026-27. El FEN trae dos emergencias opuestas a la vez: exceso de lluvia en el norte y la costa, y déficit en la sierra sur y parte de la Amazonía. Toca un riesgo para verlo solo en el mapa grande.</p></div></div>
+    <div class="rcards" id="tarjetas-riesgo"></div>
+  </section>
 
   <section class="blk" id="historico">
     <div class="sh"><div><h2>FEN histórico: <span id="n-esc">23</span> escenarios</h2>
@@ -99,29 +106,13 @@
     <div class="sh"><div><h2>¿Qué significa cada tipología?</h2><p>Un mismo aliado puede tener más de una tipología.</p></div></div>
     <div class="gl" id="gl"></div>
   </section>
-
-  <section class="blk" id="pipeline">
-    <div class="sh"><div><h2>Cómo funciona: pipeline del proyecto</h2>
-      <p>De las fuentes a la decisión. Cada nodo lleva al archivo, la hoja o la fuente real. La arquitectura y la conceptualización siguen la <a href="https://claude.ai/artifact/XCFnRvFZUEnCZ79exZgucG" target="_blank" rel="noopener">web de aliados estratégicos del MIDIS</a>, que se tomó como referencia (cable rojo punteado).</p></div></div>
-    <div class="pipeline">
-      <div class="pipe-cols" aria-hidden="true"><span>1 · Insumos</span><span>2 · Scripts de Python</span><span>3 · Hojas de Google</span><span>4 · Web (app.js)</span><span>5 · Resultado</span></div>
-      <div id="pipeline-lienzo">
-        <svg id="pipe-cables" aria-hidden="true"></svg>
-        <div id="pipe-nodos"></div>
-      </div>
-      <div class="pipe-ley">
-        <span><i style="--c:#C8202F"></i>Referencia (MIDIS)</span><span><i style="--c:#0A2A4A"></i>Fuente de datos</span>
-        <span><i style="--c:#B45309"></i>Registro manual</span><span><i style="--c:#1859A6"></i>Script de Python</span>
-        <span><i style="--c:#188038"></i>Hoja de Google</span><span><i style="--c:#123F6D"></i>Web</span>
-      </div>
-    </div>
-  </section>
 </main>
 
 <footer class="foot"><div class="in">
   <div><b>Fuentes</b>
     <p>Límites distritales: INEI, Censo 2025 (1892 distritos), vía geogpsperu.com.</p>
-    <p>FEN histórico: Matriz de escenarios de riesgo El Niño 2026-2027 (MIDIS, 28/09/2026), basada en ENFEN, CENEPRED, INDECI y MINSA.</p>
+    <p>FEN histórico y tipos de riesgo: Matriz de escenarios de riesgo El Niño 2026-2027 (MIDIS, 28/09/2026), basada en ENFEN, CENEPRED, INDECI y MINSA.</p>
+    <p>Establecimientos de EsSalud: SUSALUD, RENIPRESS al 30/10/2026 (datosabiertos.gob.pe, licencia ODC-BY); solo los activos.</p>
     <p id="pie-datos"></p></div>
   <div><b>Datos en vivo</b>
     <p><a id="enlace-hoja-fen" target="_blank" rel="noopener">Hoja FEN_2026_2027</a> (radar y demanda)</p>

@@ -136,6 +136,9 @@ def punto_etiqueta(geom):
 mapa = {
     "nota": "Trazos SVG en UTM 18S; 1 unidad = 100 m. Fuente: INEI, límites distritales Censo 2025 (1892 distritos), vía geogpsperu.com",
     "vb": [0, 0, round((xmax - xmin) / ESCALA), round((ymax - ymin) / ESCALA)],
+    # parámetros para llevar cualquier punto (p. ej. un establecimiento) a las mismas coordenadas del dibujo:
+    #   x = (Este_UTM18S - xmin) / escala ;  y = (ymax - Norte_UTM18S) / escala
+    "proy": {"crs": "EPSG:32718", "xmin": round(float(xmin), 2), "ymax": round(float(ymax), 2), "escala": ESCALA},
     "dep": [{"c": d["c"], "n": d["n"], "p": poligono_a_trazo(d["geom"]), "bb": caja(d["geom"]),
              "lc": punto_etiqueta(d["geom"])} for d in departamentos],
     "dis": [{"u": f.UBIGEO, "n": f.DISTRITO, "pr": f.PROVINCIA, "p": poligono_a_trazo(f.geom_simple)}
@@ -226,6 +229,18 @@ COLUMNAS = {"ID": "id", "Macrozona": "macrozona", "Departamento": "departamento"
             "Daño potencial directo": "dano", "Efectos en cadena (suministros, servicios, salud, economía)": "efectos",
             "Riesgo de pérdida de vidas": "riesgo_vidas", "Población expuesta (dato oficial)": "poblacion",
             "Precedente histórico": "precedente", "Fuente / base": "fuente"}
+# Tipos de riesgo del FEN: catálogo y clasificación de cada escenario (tablas editables en datos/fuentes/)
+#   escenarios_riesgos.csv: '1,lluvias|huaicos' → el escenario 1 tiene dos tipos de riesgo
+catalogo_riesgos = pd.read_csv(DATOS / "fuentes" / "riesgos_fen.csv", dtype=str).fillna("")
+riesgos_por_escenario = pd.read_csv(DATOS / "fuentes" / "escenarios_riesgos.csv", dtype=str).fillna("")
+riesgos_por_escenario = {int(f.id_escenario): f.riesgos.split("|") for f in riesgos_por_escenario.itertuples()}
+claves_validas = set(catalogo_riesgos["clave"])
+for esc_id, lista in riesgos_por_escenario.items():
+    desconocidas = set(lista) - claves_validas
+    if desconocidas:
+        raise SystemExit(f"Escenario {esc_id}: tipo de riesgo desconocido {desconocidas}")
+print("Proceso 7 - tipos de riesgo:", len(catalogo_riesgos), "| escenarios clasificados:", len(riesgos_por_escenario))
+
 salida = []
 for e in escenarios.rename(columns=COLUMNAS)[list(COLUMNAS.values())].to_dict("records"):
     propios = vinculos[vinculos["id_escenario"] == e["id"]]
@@ -234,6 +249,7 @@ for e in escenarios.rename(columns=COLUMNAS)[list(COLUMNAS.values())].to_dict("r
     # distritos escritos uno por uno en la matriz (los demás entran por provincia o departamento completo)
     e["nombrados"] = sorted(propios.loc[propios["nivel"] == "distrito", "ubigeo"])
     e["niveles"] = sorted(propios["nivel"].unique().tolist())
+    e["riesgos"] = riesgos_por_escenario.get(e["id"], [])
     e["sin_mapa"] = [s["nota"] for s in sin_mapa if s["id"] == e["id"]]
     e["notas"] = sorted({n for n in propios["nota"] if n})
     salida.append(e)
@@ -243,6 +259,7 @@ fen_historico = {
     "advertencia": "Los distritos son los 'probables' según exposición histórica (1998, 2017, 2023) y escenarios CENEPRED; no es una lista oficial.",
     "escenarios": salida,
     "correcciones": avisos,
+    "riesgos": [dict(r, fenomenos_radar=r["fenomenos_radar"].split("|")) for r in catalogo_riesgos.to_dict("records")],
 }
 (DATOS / "fen_historico.json").write_text(json.dumps(fen_historico, ensure_ascii=False, indent=1), encoding="utf-8")
 # merge(): agrega los nombres del distrito a cada vínculo (como BUSCARV en Excel)

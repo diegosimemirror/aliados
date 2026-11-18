@@ -49,9 +49,15 @@ TIPOLOGIAS = [
      "Equipos médicos de emergencia, epidemiólogos, evaluación de establecimientos de salud, protocolos y capacitación del personal.", "Propuesta EsSalud (editable)"),
 ]
 LISTAS = {
-    "fenomeno": ["Lluvias intensas", "Inundación o desborde de río", "Huaico o deslizamiento",
-                 "Activación de quebradas", "Sequía", "Heladas o friaje", "Calor extremo", "Oleaje anómalo",
-                 "Dengue", "Otra enfermedad (EDA, leptospirosis, IRA)", "Otro"],
+    # Cada fenómeno corresponde a un tipo de riesgo del FEN de la leyenda de la web (entre corchetes)
+    "fenomeno": ["Lluvias intensas", "Inundación o desborde de río",          # [Lluvias e inundaciones]
+                 "Huaico o deslizamiento", "Activación de quebradas",           # [Huaicos y deslizamientos]
+                 "Sequía o déficit hídrico", "Vaciante de ríos amazónicos",     # [Sequía]
+                 "Heladas o friaje",                                            # [Heladas y friaje]
+                 "Calor extremo", "Incendio forestal",                          # [Calor e incendios]
+                 "Mar cálido u oleaje anómalo",                                 # [Mar cálido y oleaje]
+                 "Dengue", "Otra enfermedad (EDA, leptospirosis, IRA)",         # [Dengue y epidemias]
+                 "Otro"],
     "nivel_afectacion": ["Bajo", "Medio", "Alto", "Muy alto"],
     "afectacion_salud": ["Establecimiento de salud dañado o inoperativo", "Interrupción de servicios de salud",
                          "Brote o epidemia", "Personas heridas o fallecidas", "Acceso a salud cortado (vías)",
@@ -87,7 +93,7 @@ RADAR = [
     ("id_noticia", 12, "Código de la noticia, p. ej. N-0001. Si una noticia menciona varios lugares, usa una fila por lugar con el mismo código.", None, "@"),
     ("fecha_noticia", 13, "Fecha de publicación de la noticia (AAAA-MM-DD).", None, "yyyy-mm-dd"),
     ("lugar", 46, "Elige de la lista: distrito, provincia, departamento o todo el país. Escribe para buscar (p. ej. 'SULLANA'). El código entre paréntesis es el UBIGEO que usa la web.", LUGAR, "@"),
-    ("fenomeno", 26, "Qué ocurrió.", "fenomeno", "@"),
+    ("fenomeno", 26, "Qué ocurrió. La web agrupa cada fenómeno en un tipo de riesgo del FEN: lluvias e inundaciones, huaicos y deslizamientos, sequía, heladas y friaje, calor e incendios, mar cálido y oleaje, dengue y epidemias.", "fenomeno", "@"),
     ("nivel_afectacion", 14, "Bajo: daños menores. Medio: viviendas o vías dañadas, servicios afectados en parte. Alto: damnificados, servicios de salud interrumpidos o aislamiento. Muy alto: víctimas fatales, colapso de servicios o estado de emergencia.", "nivel_afectacion", "@"),
     ("afectacion_salud", 30, "Efecto principal sobre la salud o los servicios de salud.", "afectacion_salud", "@"),
     ("resumen", 50, "Una o dos frases con lo esencial de la noticia.", None, "@"),

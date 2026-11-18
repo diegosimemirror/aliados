@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pipeline del proyecto aliados</title>
+<meta name="description" content="Documento interno: flujo de datos del proyecto aliados (EsSalud, FEN 2026-2027) al estilo n8n. No está enlazado desde la web.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Documento interno: pipeline del proyecto al estilo n8n (lienzo punteado, nodos con ícono y puertos, cables curvos) */
+:root{--bg:#EEF2F6;--surface:#FFFFFF;--ink:#0D2238;--muted:#50647A;--line:#D6DFE8;--alert:#C8202F;--accent:#1859A6;
+  --shadow:0 1px 2px rgba(10,42,74,.06),0 6px 18px rgba(10,42,74,.07);
+  --f-display:'Archivo','Arial Narrow',system-ui,sans-serif;--f-body:'Public Sans','Segoe UI',system-ui,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#07131F;--surface:#0F1F30;--ink:#E7EFF7;--muted:#92A6BA;--line:#223649;--alert:#F0606B;--accent:#5DA6F0;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.28);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#07131F;--surface:#0F1F30;--ink:#E7EFF7;--muted:#92A6BA;--line:#223649;--alert:#F0606B;--accent:#5DA6F0;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.28);color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body)}
+a{color:var(--accent)}
+.in{max-width:1400px;margin:0 auto;padding:28px max(16px,env(safe-area-inset-left,0px)) 40px}
+h1{font:800 26px/1.15 var(--f-display);font-stretch:92%;margin:0 0 8px}
+h2{font:800 19px var(--f-display);font-stretch:92%;margin:28px 0 10px}
+p{margin:0 0 10px;max-width:90ch}
+.credito{padding:12px 16px;border-radius:10px;border:1px solid color-mix(in srgb,var(--alert) 35%,var(--line));background:color-mix(in srgb,var(--alert) 7%,var(--surface));margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--f-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+code{font-size:13px}
+.pipeline{--canvas:#F4F6F8;--dot:#C9D2DC;--cable:#97A3B0;background-color:var(--canvas);background-image:radial-gradient(var(--dot) 1px,transparent 1.2px);background-size:20px 20px;border:1px solid var(--line);border-radius:14px;padding:16px 20px 14px;overflow-x:auto}
+:root[data-theme="dark"] .pipeline{--canvas:#0B1724;--dot:#1E3247;--cable:#5D7187}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pipeline{--canvas:#0B1724;--dot:#1E3247;--cable:#5D7187}}
+.pipe-cols,#pipe-nodos{display:grid;grid-template-columns:repeat(5,minmax(200px,1fr));column-gap:48px;min-width:1150px}
+.pipe-cols{margin-bottom:30px;font:700 11.5px var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+#pipeline-lienzo{position:relative;min-width:1150px}
+#pipe-nodos{position:relative;z-index:1;row-gap:16px}
+#pipe-cables{position:absolute;left:0;top:0;z-index:0;pointer-events:none;overflow:visible}
+#pipe-cables .cable{fill:none;stroke:var(--cable);stroke-width:2}
+#pipe-cables .cable.referencia{stroke:var(--alert);stroke-dasharray:6 5}
+#pipe-cables .fin{fill:var(--cable)}
+.nodo{position:relative;display:flex;align-items:center;gap:10px;min-height:66px;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);color:var(--ink);text-decoration:none}
+a.nodo:hover{border-color:var(--c);box-shadow:0 0 0 1px var(--c),var(--shadow)}
+.nodo .ico{flex:none;width:38px;height:38px;border-radius:8px;background:var(--c);display:grid;place-items:center}
+.nodo .ico svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.nodo .txt{display:flex;flex-direction:column;min-width:0;line-height:1.3}
+.nodo .txt b{font-size:14px}
+.nodo .txt>span:last-child{font-size:12.5px;color:var(--muted)}
+.nodo .badge{align-self:flex-start;font:700 10.5px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--c);border-radius:4px;padding:1px 6px;margin-bottom:3px}
+.nodo.ref{border:1.5px dashed var(--c)}
+.puerto{position:absolute;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;background:var(--surface);border:2px solid var(--cable,#97A3B0)}
+.puerto.entrada{left:-6px}.puerto.salida{right:-6px}
+.pipe-ley{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:14px;font-size:12.5px;color:var(--muted)}
+.pipe-ley i{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--c);margin-right:6px}
+</style>
+</head>
+<body>
+<div class="in">
+  <h1>Pipeline del proyecto «aliados» · documento interno</h1>
+  <p>Flujo de datos de la web de aliados y cooperación ante el FEN 2026-2027 (EsSalud), de las fuentes a la decisión. Cada nodo lleva al archivo, la hoja o la fuente real. Esta página no está enlazada desde la web pública; el mismo flujo está en el README como diagrama Mermaid.</p>
+  <div class="credito"><b>Referencia.</b> La arquitectura y la conceptualización de la web siguen el <a href="https://claude.ai/artifact/XCFnRvFZUEnCZ79exZgucG" target="_blank" rel="noopener">Mapa de Aliados Estratégicos ante emergencias y Fenómeno El Niño del MIDIS</a>: secciones, mapa con aliados por departamento, filtro por tipología, tipologías, niveles SINAGERD y lectura en vivo de Google Sheets. En el diagrama es el nodo «Referencia», con cable rojo punteado.</div>
+
+  <div class="pipeline">
+    <div class="pipe-cols" aria-hidden="true"><span>1 · Insumos</span><span>2 · Scripts de Python</span><span>3 · Hojas de Google</span><span>4 · Web (app.js)</span><span>5 · Resultado</span></div>
+    <div id="pipeline-lienzo"><svg id="pipe-cables" aria-hidden="true"></svg><div id="pipe-nodos"></div></div>
+    <div class="pipe-ley">
+      <span><i style="--c:#C8202F"></i>Referencia (MIDIS) y decisión</span><span><i style="--c:#0A2A4A"></i>Fuente de datos</span>
+      <span><i style="--c:#B45309"></i>Registro manual</span><span><i style="--c:#1859A6"></i>Script de Python</span>
+      <span><i style="--c:#188038"></i>Hoja de Google</span><span><i style="--c:#123F6D"></i>Web</span>
+    </div>
+  </div>
+
+  <h2>Mapa de procesos</h2>
+  <table>
+    <thead><tr><th>N.º</th><th>Proceso</th><th>Insumo</th><th>Método</th><th>Resultado</th></tr></thead>
+    <tbody>
+      <tr><td>01 · P1–P4</td><td>Mapa distrital para la web</td><td>GeoPackage INEI 2025 (1892 distritos)</td><td>UTM 18S, <code>coverage_simplify</code> 200 m, unión por departamento, trazos SVG</td><td><code>datos/mapa.json</code></td></tr>
+      <tr><td>01 · P5–P7</td><td>Capa FEN histórico y tipos de riesgo</td><td>Matriz de escenarios + <code>escenarios_lugares.csv</code> + <code>escenarios_riesgos.csv</code> + <code>riesgos_fen.csv</code></td><td>Nombres sin tildes → UBIGEO; clasificación manual de cada escenario en 7 riesgos</td><td><code>datos/fen_historico.json</code></td></tr>
+      <tr><td>01 · P8</td><td>Catálogo de lugares</td><td>Códigos INEI</td><td>Etiqueta jerárquica con el código al final</td><td><code>datos/catalogo_lugares.csv</code></td></tr>
+      <tr><td>02</td><td>Estructura de las hojas</td><td>Columnas, listas y catálogo</td><td>openpyxl; se importan con «Reemplazar hoja de cálculo»</td><td><code>plantillas/*.xlsx</code></td></tr>
+      <tr><td>03</td><td>Copia de respaldo de las hojas</td><td>Hojas de Google</td><td>Descarga CSV (gviz)</td><td><code>datos/copia/*.csv</code></td></tr>
+      <tr><td>04</td><td>Establecimientos de EsSalud</td><td>RENIPRESS (SUSALUD, 30/10/2026)</td><td>Filtro INSTITUCION = ESSALUD y ESTADO = ACTIVO; cruce espacial con el distrito declarado; proyección al dibujo</td><td><code>datos/essalud_establecimientos.json</code> y <code>.csv</code></td></tr>
+      <tr><td>app.js W3–W7</td><td>Lectura en vivo, cruces y representación</td><td>Todo lo anterior</td><td>gviz CSV cada 5 min; código del lugar → distritos; demanda ↔ oferta; riesgos; EsSalud expuesto</td><td>La web</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+/* Dibujo del pipeline: nodos en una cuadrícula (columna, fila) y cables de Bézier entre puertos */
+(function () {
+  'use strict';
+  const REPO = 'https://github.com/diegosimemirror/aliados/blob/main/';
+  const HOJA = id => `https://docs.google.com/spreadsheets/d/${id}/edit`;
+  const ICONOS = {
+    ref: '<path d="M6 3h12v18l-6-4-6 4z"/>',
+    datos: '<ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v12c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3"/>',
+    humano: '<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/>',
+    codigo: '<path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/>',
+    hoja: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 9h16M4 15h16M10 3v18"/>',
+    web: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/>',
+    cruce: '<path d="M4 7h11l-3-3M20 17H9l3 3"/>',
+    mapa: '<path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/>',
+    salud: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8M8 12h8"/>',
+    decision: '<path d="M12 2 22 12 12 22 2 12z"/>'
+  };
+  const NODOS = [
+    { id: 'midis', col: 1, fila: 1, tipo: 'ref', c: '#C8202F', t: 'Web de aliados del MIDIS', s: 'Referencia de arquitectura y conceptualización', url: 'https://claude.ai/artifact/XCFnRvFZUEnCZ79exZgucG', ref: true },
+    { id: 'inei', col: 1, fila: 2, tipo: 'datos', c: '#0A2A4A', t: 'Mapa distrital INEI 2025', s: '1892 distritos (GeoPackage)' },
+    { id: 'matriz', col: 1, fila: 3, tipo: 'datos', c: '#0A2A4A', t: 'Matriz de escenarios El Niño', s: 'MIDIS, 28/09/2026 · 23 escenarios' },
+    { id: 'renipress', col: 1, fila: 4, tipo: 'datos', c: '#0A2A4A', t: 'RENIPRESS (SUSALUD)', s: 'Corte 30/10/2026 · 495 IPRESS de EsSalud', url: 'https://www.datosabiertos.gob.pe/dataset/registro-nacional-de-entidades-prestadoras-de-servicios-de-salud-renipress' },
+    { id: 'noticias', col: 1, fila: 6, tipo: 'humano', c: '#B45309', t: 'Noticias del FEN 2026-27', s: 'Registro manual de la oficina' },
+    { id: 'gestion', col: 1, fila: 7, tipo: 'humano', c: '#B45309', t: 'Aliados, oferta y demanda', s: 'Registro manual de la oficina y redes' },
+    { id: 'p_mapa', col: 2, fila: 2, tipo: 'codigo', c: '#1859A6', t: 'Simplificar y dibujar el mapa', s: '01_preparar_datos.py · P1–P4', url: REPO + 'scripts/01_preparar_datos.py' },
+    { id: 'p_hist', col: 2, fila: 3, tipo: 'codigo', c: '#1859A6', t: 'Escenarios → UBIGEO y riesgos', s: 'P5–P7 + tablas de datos/fuentes', url: REPO + 'datos/fuentes/escenarios_lugares.csv' },
+    { id: 'p_es', col: 2, fila: 4, tipo: 'codigo', c: '#1859A6', t: 'Ubicar establecimientos EsSalud', s: '04_establecimientos_essalud.py', url: REPO + 'scripts/04_establecimientos_essalud.py' },
+    { id: 'p_plant', col: 2, fila: 5, tipo: 'codigo', c: '#1859A6', t: 'Catálogo de lugares y plantillas', s: 'P8 + 02_crear_plantillas.py', url: REPO + 'scripts/02_crear_plantillas.py' },
+    { id: 'h_fen', col: 3, fila: 6, tipo: 'hoja', c: '#188038', t: 'Hoja FEN_2026_2027', s: 'Radar y Demanda', url: HOJA('1YE-9gXDLxJOuHyfflAFxznstzzi1sihIF3RiLt6zp5c') },
+    { id: 'h_ali', col: 3, fila: 7, tipo: 'hoja', c: '#188038', t: 'Hoja Identificacion_Aliados', s: 'Aliados, Oferta y Tipologías', url: HOJA('1NYboI4a8f3SYIUpmPrKBunqqmcSTwwL6GylItubkLIE') },
+    { id: 'capas', col: 4, fila: 2, tipo: 'mapa', c: '#123F6D', t: 'Capas del mapa', s: 'FEN, riesgos, EsSalud y aliados · W4–W5', url: REPO + 'assets/app.js' },
+    { id: 'lectura', col: 4, fila: 6, tipo: 'web', c: '#123F6D', t: 'Lectura en vivo', s: 'W3 · cada 5 min (o copia 03)', url: REPO + 'assets/app.js' },
+    { id: 'cruce', col: 4, fila: 7, tipo: 'cruce', c: '#123F6D', t: 'Cruce demanda ↔ oferta', s: 'W4 · categoría y lugar', url: REPO + 'assets/app.js' },
+    { id: 'web', col: 5, fila: 3, tipo: 'web', c: '#0A2A4A', t: 'Web en GitHub Pages', s: 'Mapa, riesgos, radar, demanda y aliados', url: '../' },
+    { id: 'decision', col: 5, fila: 4, tipo: 'decision', c: '#C8202F', t: 'Decisión de cooperación', s: 'A qué aliado pedir qué apoyo y para qué zona' }
+  ];
+  const CABLES = [
+    ['midis', 'web', 'referencia'], ['midis', 'capas', 'referencia'],
+    ['inei', 'p_mapa'], ['inei', 'p_es'], ['inei', 'p_plant'], ['matriz', 'p_hist'], ['renipress', 'p_es'],
+    ['p_mapa', 'capas'], ['p_hist', 'capas'], ['p_es', 'capas'],
+    ['p_plant', 'h_fen'], ['p_plant', 'h_ali'], ['noticias', 'h_fen'], ['gestion', 'h_fen'], ['gestion', 'h_ali'],
+    ['h_fen', 'lectura'], ['h_ali', 'lectura'], ['lectura', 'capas'], ['lectura', 'cruce'],
+    ['capas', 'web'], ['cruce', 'web'], ['web', 'decision']
+  ];
+  const esc = s => String(s).replace(/[&<>"]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
+  const lienzo = document.getElementById('pipeline-lienzo'), cs = document.getElementById('pipe-cables');
+  document.getElementById('pipe-nodos').innerHTML = NODOS.map(n => {
+    const tag = n.url ? `a href="${esc(n.url)}" target="_blank" rel="noopener"` : 'div';
+    return `<${tag} class="nodo${n.ref ? ' ref' : ''}" data-id="${n.id}" style="grid-column:${n.col};grid-row:${n.fila};--c:${n.c}">
+      <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">${ICONOS[n.tipo]}</svg></span>
+      <span class="txt">${n.ref ? '<span class="badge">Referencia</span>' : ''}<b>${esc(n.t)}</b><span>${esc(n.s)}</span></span>
+      <span class="puerto entrada"></span><span class="puerto salida"></span></${tag.split(' ')[0]}>`;
+  }).join('');
+  function dibujar() {
+    const B = lienzo.getBoundingClientRect();
+    cs.setAttribute('viewBox', `0 0 ${B.width} ${B.height}`); cs.setAttribute('width', B.width); cs.setAttribute('height', B.height);
+    const pos = id => { const r = lienzo.querySelector(`[data-id="${id}"]`).getBoundingClientRect();
+      return { l: r.left - B.left, r: r.right - B.left, t: r.top - B.top, b: r.bottom - B.top, cx: r.left - B.left + r.width / 2, cy: r.top - B.top + r.height / 2 }; };
+    cs.innerHTML = CABLES.map(([a, b, tipo]) => {
+      const A = pos(a), Z = pos(b); let d, x2, y2;
+      if (tipo === 'referencia') {       // la referencia del MIDIS va en arco por encima del flujo
+        const yt = -14, r = 14, x1 = A.cx; x2 = Z.cx; y2 = Z.t;
+        d = `M${x1} ${A.t} V${yt + r} Q${x1} ${yt} ${x1 + r} ${yt} H${x2 - r} Q${x2} ${yt} ${x2} ${yt + r} V${y2}`;
+      } else if (Z.l > A.r - 4) {        // hacia la derecha: de puerto de salida a puerto de entrada
+        const x1 = A.r, y1 = A.cy; x2 = Z.l; y2 = Z.cy; const dx = Math.max(40, (x2 - x1) / 2);
+        d = `M${x1} ${y1} C${x1 + dx} ${y1} ${x2 - dx} ${y2} ${x2} ${y2}`;
+      } else {                           // misma columna: de arriba hacia abajo (o al revés)
+        let x1 = A.cx, y1 = A.b; x2 = Z.cx; y2 = Z.t; if (y2 < y1) { y1 = A.t; y2 = Z.b; }
+        const dy = Math.max(30, Math.abs(y2 - y1) / 2) * Math.sign(y2 - y1 || 1);
+        d = `M${x1} ${y1} C${x1} ${y1 + dy} ${x2} ${y2 - dy} ${x2} ${y2}`;
+      }
+      return `<path class="cable${tipo ? ' ' + tipo : ''}" d="${d}"/><circle class="fin" cx="${x2}" cy="${y2}" r="3.5"/>`;
+    }).join('');
+  }
+  dibujar();
+  window.addEventListener('resize', dibujar);
+  if (document.fonts) document.fonts.ready.then(dibujar);
+})();
+</script>
+</body>
+</html>

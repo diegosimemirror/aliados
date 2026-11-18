@@ -1,0 +1,24 @@
+id_escenario,riesgos,texto_de_la_matriz
+1,lluvias|huaicos,Lluvias intensas; desborde de ríos Tumbes y Zarumilla; activación de quebradas secas; inundación pluvial urbana
+2,lluvias|huaicos,Desborde del río Piura; inundación pluvial; colapso de drenes y diques; activación de quebradas
+3,lluvias|huaicos,Desborde de ríos Chira y Piura; descargas de Poechos; huaicos en quebradas
+4,huaicos|lluvias|mar,Activación de quebradas secas (huaicos costeros); lluvias intensas; mar cálido
+5,huaicos,"Deslizamientos, huaicos, caída de rocas por lluvias intensas"
+6,lluvias|huaicos,Lluvias intensas en ciudades sin drenaje; desborde de ríos; quebradas en Olmos
+7,huaicos|lluvias,Huaicos por quebradas San Idelfonso y El León; desborde de ríos
+8,lluvias|huaicos,Lluvias superiores a lo normal en sierra norte occidental; huaicos y deslizamientos
+9,lluvias|huaicos,Desborde de ríos Lacramarca. Santa. Casma. Sechín y Huarmey; huaicos
+10,huaicos,Huaicos y deslizamientos por lluvias
+11,huaicos|lluvias,Huaicos en quebradas del Rímac; desborde de los ríos Rímac. Huaycoloro y Chillón
+12,lluvias|huaicos,Lluvias superiores a lo normal en costa central y sierra occidental; huaicos
+13,lluvias|huaicos,Desborde del río Ica; activación de quebradas; huaicos
+14,huaicos|lluvias,Huaicos y desbordes en valles costeros; activación de torrenteras
+15,huaicos,Deslizamientos y caída de rocas
+16,huaicos,Deslizamientos y huaicos estacionales
+17,sequia|heladas,Sequía meteorológica y agrícola; déficit en la cuenca del Titicaca; heladas más frecuentes
+18,sequia|heladas,Sequía; heladas
+19,sequia|heladas,Sequía; déficit hídrico en represas; heladas
+20,sequia|calor,Lluvias normales a inferiores; vaciante extrema de ríos; calor; incendios forestales
+21,mar,Mar anómalamente cálido; migración de la anchoveta; oleaje y marejadas anómalas
+22,calor,Calor extremo
+23,dengue,Epidemia de dengue (y leptospirosis. EDAs. hepatitis A. IRAs)

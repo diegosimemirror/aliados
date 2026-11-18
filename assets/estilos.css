@@ -11,6 +11,8 @@
   --hist:#256abf; --h1:#5598e7; --h2:#256abf; --h3:#0d366b;
   /* Capa FEN 2026-27 (naranja; más oscuro = mayor afectación) */
   --act:#cf5522; --a1:#e8834f; --a2:#cf5522; --a3:#9a3a14; --a4:#62220a;
+  /* Tipos de riesgo del FEN (validados como pares contiguos de la leyenda) */
+  --r-lluvias:#2a78d6; --r-huaicos:#a0521d; --r-sequia:#c98500; --r-calor:#e0367a; --r-heladas:#0f9fb5; --r-mar:#3f8f1f; --r-dengue:#6d3fc0; --r-otro:#7A8DA1;
   /* Tipologías de aliados */
   --don:#0F766E; --vol:#6D28D9; --log:#B45309; --art:#BE185D; --fin:#15803D; --tec:#475569;
   --lv1:#C98A00; --lv2:#D56A12; --lv3:#CF4A16; --lv4:#BF1F2C; --lv5:#82101F;
@@ -25,6 +27,7 @@
   --sea:#0A1826; --land:#1B2B3C; --border-d:#0A1826; --border-dep:#7F95AB; --halo:#0F1F30;
   --hist:#3987e5; --h1:#1c5cab; --h2:#3987e5; --h3:#9ec5f4;
   --act:#c9561f; --a1:#9c4219; --a2:#c9561f; --a3:#ee7a45; --a4:#f8b995;
+  --r-lluvias:#3987e5; --r-huaicos:#b8502e; --r-sequia:#a68a00; --r-calor:#e64d8c; --r-heladas:#1a9fb5; --r-mar:#5aa832; --r-dengue:#9a76ee; --r-otro:#7F95AB;
   --don:#34D1BF; --vol:#B49BFA; --log:#FBBF4A; --art:#F58DB8; --fin:#4ADE80; --tec:#A3B3C6;
   --lv1:#E8B130; --lv2:#F08A3A; --lv3:#F26E3E; --lv4:#F0606B; --lv5:#FF8E98;
   --shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.28);
@@ -35,6 +38,7 @@
   --sea:#0A1826; --land:#1B2B3C; --border-d:#0A1826; --border-dep:#7F95AB; --halo:#0F1F30;
   --hist:#3987e5; --h1:#1c5cab; --h2:#3987e5; --h3:#9ec5f4;
   --act:#c9561f; --a1:#9c4219; --a2:#c9561f; --a3:#ee7a45; --a4:#f8b995;
+  --r-lluvias:#3987e5; --r-huaicos:#b8502e; --r-sequia:#a68a00; --r-calor:#e64d8c; --r-heladas:#1a9fb5; --r-mar:#5aa832; --r-dengue:#9a76ee; --r-otro:#7F95AB;
   --don:#34D1BF; --vol:#B49BFA; --log:#FBBF4A; --art:#F58DB8; --fin:#4ADE80; --tec:#A3B3C6;
   --lv1:#E8B130; --lv2:#F08A3A; --lv3:#F26E3E; --lv4:#F0606B; --lv5:#FF8E98;
   --shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.28);
@@ -74,7 +78,8 @@ h1{font:800 clamp(28px,3.6vw,42px)/1.06 var(--f-display);font-stretch:96%;margin
 
 /* --- Cifras --- */
 .stats{position:relative;z-index:2;margin-top:-84px}
-.stats .in{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.stats .in{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.stat b small{font:600 15px var(--f-body);color:var(--muted)}
 .stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:4px}
 .stat b{font:800 clamp(28px,3vw,36px)/1 var(--f-display);font-stretch:80%;color:var(--num)}
 .stat span{font-size:13.5px;color:var(--muted)}
@@ -143,6 +148,7 @@ svg.map path{vector-effect:non-scaling-stroke;stroke-linejoin:round}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-bottom:14px}
 .kpis div{background:var(--bg);border-radius:8px;padding:8px}
 .kpis b{display:block;font:800 22px/1 var(--f-display);font-stretch:85%}
+.kpis b small{font:600 13px var(--f-body);color:var(--muted)}
 .kpis span{font-size:12px;color:var(--muted)}
 .blk-p{margin-top:16px}
 .blk-p h3{font:700 12px var(--f-display);font-stretch:85%;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;display:flex;align-items:center;gap:8px}
@@ -153,7 +159,7 @@ svg.map path{vector-effect:non-scaling-stroke;stroke-linejoin:round}
 .item button.lnk,.lnk{border:0;background:none;padding:0;color:var(--accent);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 .rank{list-style:none;margin:0;padding:0;display:grid;gap:1px}
 .rank li{display:block}
-.rank button{display:grid;grid-template-columns:118px 1fr 34px 34px 34px;gap:8px;align-items:center;width:100%;text-align:left;border:0;background:transparent;padding:6px 6px;border-radius:6px;font-size:14px}
+.rank button{display:grid;grid-template-columns:110px 1fr 32px 32px 32px 32px;gap:8px;align-items:center;width:100%;text-align:left;border:0;background:transparent;padding:6px 6px;border-radius:6px;font-size:14px}
 .rank button:hover{background:var(--bg)}
 .rank .hd{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;cursor:default}
 .rank .hd:hover{background:transparent}
@@ -226,31 +232,39 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
 .gcard .eg{font-size:13.5px;color:var(--muted);padding-top:8px;border-top:1px solid var(--line)}
 .gcard .eg b{display:block;font:700 11.5px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin-bottom:3px}
 .gcard .origen{font-size:12px;color:var(--muted)}
-/* --- Pipeline estilo n8n: lienzo punteado, nodos con ícono y puertos, cables curvos --- */
-.pipeline{--canvas:#F4F6F8;--dot:#C9D2DC;--cable:#97A3B0;background-color:var(--canvas);background-image:radial-gradient(var(--dot) 1px,transparent 1.2px);background-size:20px 20px;border:1px solid var(--line);border-radius:14px;padding:16px 20px 14px}
-:root[data-theme="dark"] .pipeline{--canvas:#0B1724;--dot:#1E3247;--cable:#5D7187}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pipeline{--canvas:#0B1724;--dot:#1E3247;--cable:#5D7187}}
-.pipe-cols{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));column-gap:48px;margin-bottom:30px;font:700 11.5px var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-#pipeline-lienzo{position:relative}
-#pipe-nodos{position:relative;z-index:1;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));column-gap:48px;row-gap:16px}
-#pipe-cables{position:absolute;left:0;top:0;z-index:0;pointer-events:none;overflow:visible}
-#pipe-cables .cable{fill:none;stroke:var(--cable);stroke-width:2}
-#pipe-cables .cable.referencia{stroke:var(--alert);stroke-dasharray:6 5}
-#pipe-cables .fin{fill:var(--cable)}
-.nodo{position:relative;display:flex;align-items:center;gap:10px;min-height:66px;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);color:var(--ink);text-decoration:none}
-a.nodo:hover{border-color:var(--c);box-shadow:0 0 0 1px var(--c),var(--shadow)}
-.nodo .ico{flex:none;width:38px;height:38px;border-radius:8px;background:var(--c);display:grid;place-items:center}
-.nodo .ico svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.nodo .txt{display:flex;flex-direction:column;min-width:0;line-height:1.3}
-.nodo .txt b{font-size:14px}
-.nodo .txt>span:last-child{font-size:12.5px;color:var(--muted)}
-.nodo .badge{align-self:flex-start;font:700 10.5px var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--c);border-radius:4px;padding:1px 6px;margin-bottom:3px}
-.nodo.ref{border:1.5px dashed var(--c)}
-.puerto{position:absolute;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;background:var(--surface);border:2px solid var(--cable,#97A3B0)}
-.puerto.entrada{left:-6px}.puerto.salida{right:-6px}
-.pipe-ley{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:14px;font-size:12.5px;color:var(--muted)}
-.pipe-ley i{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--c);margin-right:6px}
-@media (max-width:900px){.pipe-cols{display:none}#pipe-nodos{grid-template-columns:minmax(0,1fr);row-gap:22px}.nodo{grid-column:auto!important;grid-row:auto!important}.puerto{display:none}}
+
+/* --- Tipos de riesgo: íconos, chips y etiquetas (el ícono acompaña siempre al color) --- */
+.chips.fila{flex-basis:100%}
+.ic{width:15px;height:15px;flex:none;fill:none;stroke:var(--c);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ic-ley{width:14px;height:14px;fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rchip{gap:6px}
+.chip[aria-pressed="true"] .ic{stroke-width:2.4}
+.tag.riesgo{gap:4px;padding-left:6px}
+.tag.riesgo .ic{width:13px;height:13px}
+
+/* --- Establecimientos de EsSalud: hueco = fuera de zonas con riesgo; lleno = en zona con riesgo --- */
+circle.es{fill:var(--surface);stroke:var(--ink);cursor:pointer}
+circle.es.expuesto{fill:var(--ink);stroke:var(--surface)}
+#g-es circle{vector-effect:none}
+.chip.es-chip{--c:var(--ink)}
+.chip.es-chip i{border-radius:50%;background:var(--ink)}
+.es-item{display:grid;grid-template-columns:14px minmax(0,1fr);gap:8px;align-items:start}
+.es-item .punto{width:10px;height:10px;margin-top:5px;border-radius:50%;border:1.5px solid var(--ink);background:var(--surface)}
+.es-item .punto.expuesto{background:var(--ink)}
+
+/* --- Tarjetas de riesgo con mini mapa --- */
+.rcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,400px),1fr));gap:12px}
+.rcard{display:grid;grid-template-columns:118px minmax(0,1fr);gap:14px;padding:14px;border:1px solid var(--line);border-top:5px solid var(--c);border-radius:12px;background:var(--surface);box-shadow:var(--shadow)}
+.rcard.activo{box-shadow:0 0 0 2px var(--c),var(--shadow)}
+.rcard canvas.mini{width:118px;height:168px;display:block;background:var(--sea);border-radius:8px}
+.rcard h3{margin:0 0 6px;font:800 17px/1.2 var(--f-display);font-stretch:90%;display:flex;align-items:center;gap:8px}
+.rico{width:28px;height:28px;border-radius:7px;background:var(--c);display:grid;place-items:center;flex:none}
+.rico .ic{width:17px;height:17px;stroke:#fff}
+.rnum{display:flex;flex-wrap:wrap;gap:2px 12px;font-size:13px;color:var(--muted);margin-bottom:6px}
+.rnum b{color:var(--ink);font-variant-numeric:tabular-nums}
+.rtxt p{margin:0 0 6px;font-size:14px}
+@media (max-width:1100px){.stats .in{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:640px){.stats .in{grid-template-columns:repeat(2,minmax(0,1fr))}.rcard{grid-template-columns:88px minmax(0,1fr)}.rcard canvas.mini{width:88px;height:126px}}
 
 footer.foot{margin-top:40px;background:var(--navy);color:#B9CCDF}
 footer.foot .in{padding-block:24px 30px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 32px;font-size:13.5px}

@@ -44,6 +44,10 @@
    "niveles": [
     "distrito"
    ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
+   ],
    "sin_mapa": [],
    "notas": []
   },
@@ -94,6 +98,10 @@
    ],
    "niveles": [
     "distrito"
+   ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
    ],
    "sin_mapa": [],
    "notas": [
@@ -146,6 +154,10 @@
    "niveles": [
     "distrito"
    ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
+   ],
    "sin_mapa": [],
    "notas": [
     "La matriz dice «Tambogrande» (nombre INEI: Tambo Grande)"
@@ -189,6 +201,11 @@
    "niveles": [
     "distrito"
    ],
+   "riesgos": [
+    "huaicos",
+    "lluvias",
+    "mar"
+   ],
    "sin_mapa": [],
    "notas": []
   },
@@ -227,6 +244,9 @@
    ],
    "niveles": [
     "distrito"
+   ],
+   "riesgos": [
+    "huaicos"
    ],
    "sin_mapa": [],
    "notas": []
@@ -286,6 +306,10 @@
    ],
    "niveles": [
     "distrito"
+   ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
    ],
    "sin_mapa": [],
    "notas": [
@@ -347,6 +371,10 @@
    "niveles": [
     "distrito",
     "provincia"
+   ],
+   "riesgos": [
+    "huaicos",
+    "lluvias"
    ],
    "sin_mapa": [],
    "notas": [
@@ -431,6 +459,10 @@
     "distrito",
     "provincia"
    ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
+   ],
    "sin_mapa": [],
    "notas": [
     "La matriz dice «Cajamarca (laderas)»: se toma el distrito capital",
@@ -475,6 +507,10 @@
    "niveles": [
     "distrito"
    ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
+   ],
    "sin_mapa": [],
    "notas": []
   },
@@ -507,6 +543,9 @@
    ],
    "niveles": [
     "distrito"
+   ],
+   "riesgos": [
+    "huaicos"
    ],
    "sin_mapa": [
     "«Provincias de Conchucos» no indica qué provincias: no se cartografía"
@@ -552,6 +591,10 @@
    ],
    "niveles": [
     "distrito"
+   ],
+   "riesgos": [
+    "huaicos",
+    "lluvias"
    ],
    "sin_mapa": [],
    "notas": [
@@ -665,6 +708,10 @@
     "distrito",
     "provincia"
    ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
+   ],
    "sin_mapa": [],
    "notas": [
     "Provincia completa (la matriz no lista distritos)"
@@ -736,6 +783,10 @@
     "distrito",
     "provincia"
    ],
+   "riesgos": [
+    "lluvias",
+    "huaicos"
+   ],
    "sin_mapa": [],
    "notas": [
     "Provincia completa (la matriz no lista distritos)"
@@ -796,6 +847,10 @@
    "niveles": [
     "distrito",
     "provincia"
+   ],
+   "riesgos": [
+    "huaicos",
+    "lluvias"
    ],
    "sin_mapa": [],
    "notas": [
@@ -911,6 +966,9 @@
    "niveles": [
     "distrito",
     "provincia"
+   ],
+   "riesgos": [
+    "huaicos"
    ],
    "sin_mapa": [],
    "notas": [
@@ -1044,6 +1102,9 @@
     "departamento",
     "provincia"
    ],
+   "riesgos": [
+    "huaicos"
+   ],
    "sin_mapa": [],
    "notas": [
     "La matriz nombra el departamento sin detalle: departamento completo",
@@ -1159,6 +1220,10 @@
    "niveles": [
     "provincia"
    ],
+   "riesgos": [
+    "sequia",
+    "heladas"
+   ],
    "sin_mapa": [],
    "notas": [
     "La matriz dice «San Román (zona rural)»: provincia completa",
@@ -1217,6 +1282,10 @@
    "nombrados": [],
    "niveles": [
     "provincia"
+   ],
+   "riesgos": [
+    "sequia",
+    "heladas"
    ],
    "sin_mapa": [],
    "notas": [
@@ -1342,6 +1411,10 @@
    "niveles": [
     "provincia"
    ],
+   "riesgos": [
+    "sequia",
+    "heladas"
+   ],
    "sin_mapa": [
     "La matriz dice «Huancavelica: 5» sin indicar lugares: no se cartografía"
    ],
@@ -1427,6 +1500,10 @@
     "departamento",
     "provincia"
    ],
+   "riesgos": [
+    "sequia",
+    "calor"
+   ],
    "sin_mapa": [],
    "notas": [
     "La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa",
@@ -1472,6 +1549,9 @@
    "niveles": [
     "distrito"
    ],
+   "riesgos": [
+    "mar"
+   ],
    "sin_mapa": [
     "«Caletas artesanales de Tumbes a Tacna» no indica lugares: no se cartografía"
    ],
@@ -1503,6 +1583,9 @@
    "ubigeos": [],
    "nombrados": [],
    "niveles": [],
+   "riesgos": [
+    "calor"
+   ],
    "sin_mapa": [
     "Escenario de toda la costa urbana (10 departamentos) sin lugares precisos: no se cartografía"
    ],
@@ -1546,6 +1629,9 @@
    "niveles": [
     "distrito"
    ],
+   "riesgos": [
+    "dengue"
+   ],
    "sin_mapa": [],
    "notas": [
     "Ejemplo de periferia urbana citado por la matriz",
@@ -1558,5 +1644,82 @@
  "correcciones": [
   "Escenario 2: Cristo Nos Valga está en la provincia SECHURA, no en PIURA",
   "Escenario 14: Ocoña está en la provincia CAMANA, no en CARAVELÍ"
+ ],
+ "riesgos": [
+  {
+   "clave": "lluvias",
+   "nombre": "Lluvias intensas e inundaciones",
+   "descripcion": "Lluvias por encima de lo normal que desbordan ríos, colapsan drenes y diques e inundan ciudades sin drenaje pluvial.",
+   "relacion_fen": "El mar cálido frente a la costa norte aumenta la evaporación y trae lluvias intensas a la costa norte, la costa central y la sierra norte occidental.",
+   "periodo_critico": "Desde nov-2026; pico de ene a abr-2027",
+   "fenomenos_radar": [
+    "Lluvias intensas",
+    "Inundación o desborde de río"
+   ]
+  },
+  {
+   "clave": "huaicos",
+   "nombre": "Huaicos y deslizamientos",
+   "descripcion": "Flujos de lodo y piedras por quebradas, deslizamientos de laderas y caída de rocas que cortan carreteras y destruyen viviendas.",
+   "relacion_fen": "Las lluvias intensas saturan las laderas y activan quebradas que pasan años secas.",
+   "periodo_critico": "Ene a abr-2027 (mar y abr, los meses más críticos)",
+   "fenomenos_radar": [
+    "Huaico o deslizamiento",
+    "Activación de quebradas"
+   ]
+  },
+  {
+   "clave": "sequia",
+   "nombre": "Sequía y déficit hídrico",
+   "descripcion": "Lluvia por debajo de lo normal: pérdida de cosechas y pastos, muerte de ganado y escasez de agua. En la Amazonía, vaciante extrema de los ríos.",
+   "relacion_fen": "Con El Niño la sierra sur altoandina y parte de la Amazonía reciben menos lluvia: es la emergencia «lenta» y opuesta a la del norte.",
+   "periodo_critico": "Déficit de dic-2026 a mar-2027; efectos de abr a ago-2027; vaciante de jul a oct-2027",
+   "fenomenos_radar": [
+    "Sequía o déficit hídrico",
+    "Vaciante de ríos amazónicos"
+   ]
+  },
+  {
+   "clave": "calor",
+   "nombre": "Calor extremo e incendios forestales",
+   "descripcion": "Temperaturas muy por encima de lo normal: golpes de calor, más demanda de agua y energía; en la Amazonía, más incendios forestales.",
+   "relacion_fen": "El calentamiento del mar eleva de 3 a 5 °C la temperatura del aire en la costa; la Amazonía, con menos lluvia, se vuelve más inflamable.",
+   "periodo_critico": "Costa: set-2026 a abr-2027; Amazonía: jul a oct-2027",
+   "fenomenos_radar": [
+    "Calor extremo",
+    "Incendio forestal"
+   ]
+  },
+  {
+   "clave": "heladas",
+   "nombre": "Heladas y friaje",
+   "descripcion": "Temperaturas bajo cero en zonas altoandinas que dañan cultivos y causan neumonías en niños y adultos mayores.",
+   "relacion_fen": "Los cielos despejados por la falta de lluvia en el sur hacen más frecuentes las heladas.",
+   "periodo_critico": "May a ago-2027",
+   "fenomenos_radar": [
+    "Heladas o friaje"
+   ]
+  },
+  {
+   "clave": "mar",
+   "nombre": "Mar cálido y oleaje anómalo",
+   "descripcion": "Mar más caliente que lo normal: la anchoveta se profundiza o migra, llegan especies tropicales y se presentan oleajes y marejadas anómalas.",
+   "relacion_fen": "Es la expresión directa de El Niño costero (región Niño 1+2): afecta la pesca y a los hogares que viven de ella.",
+   "periodo_critico": "En curso hasta may-2027",
+   "fenomenos_radar": [
+    "Mar cálido u oleaje anómalo"
+   ]
+  },
+  {
+   "clave": "dengue",
+   "nombre": "Dengue y otras epidemias",
+   "descripcion": "Brotes de dengue, leptospirosis, enfermedades diarreicas, hepatitis A e infecciones respiratorias que saturan los establecimientos de salud.",
+   "relacion_fen": "Charcos, agua almacenada, calor y colapso del agua y el saneamiento favorecen al zancudo Aedes y a otras infecciones.",
+   "periodo_critico": "Nov-2026 a jun-2027; pico de mar a may-2027",
+   "fenomenos_radar": [
+    "Dengue",
+    "Otra enfermedad (EDA. leptospirosis. IRA)"
+   ]
+  }
  ]
 }
