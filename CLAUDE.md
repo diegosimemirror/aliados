@@ -55,3 +55,6 @@ Web estática (GitHub Pages: https://diegosimemirror.github.io/aliados/) de la o
 - 18/11/2026: web con mapa, riesgos, EsSalud, radar, demanda, aliados, niveles y tipologías. Pipeline movido a `docs/`.
 - Pendiente del usuario: importar las plantillas en las 2 hojas, compartirlas como lector y activar Pages (Settings › Pages › main / root). Comprobar con `curl` que `gviz/tq?tqx=out:csv&sheet=Radar` responde 200 y luego correr `03_copiar_hojas.py`.
 - Antes de editar: `git pull`. Para probar: `python -m http.server 8000` en la carpeta del repo.
+- 18/11/2026: copia publicada como artefacto privado de Claude: https://claude.ai/artifact/VWX6Jj1cHqVtf1Mi3Nwdia
+  - El artefacto no puede leer las hojas en vivo, porque su política de seguridad bloquea docs.google.com. Usa `datos/copia/*.csv`, así que hay que volver a publicarlo después de correr `03_copiar_hojas.py`.
+  - Para actualizarlo: copiar `index.html` sin las etiquetas `<!doctype>`, `<html>`, `<head>`, `<meta charset>`, `<meta viewport>` y `<body>`. Junto a ella van `assets/` y `datos/` (los 3 JSON y `copia/`). Se publica con la herramienta Artifact, pasando `url` y el mapa `files`.
