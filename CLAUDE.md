@@ -3,7 +3,7 @@
 Contexto para continuar este proyecto con Claude Code en cualquier computadora (PC de escritorio o laptop). Las preferencias generales del usuario están en el `~/.claude/CLAUDE.md` de cada máquina: explicar en español, código comentado por procesos numerados (insumo → método → resultado), nombres en español y no modificar datos sin decir cuántos registros se afectan.
 
 ## Qué es
-Web estática, publicada como artefacto privado de Claude (https://claude.ai/artifact/VWX6Jj1cHqVtf1Mi3Nwdia). El 18/11/2026 el usuario decidió no usar GitHub Pages. Es de la oficina de cooperación internacional de EsSalud para buscar cooperación ante el FEN 2026-2027. Decisión que informa: a qué aliado pedir qué apoyo y para qué zona.
+Web estática publicada en GitHub Pages: https://diegosimemirror.github.io/aliados/ (rama main, carpeta raíz, con `.nojekyll`; activada el 18/11/2026). Lee las hojas en vivo cada 5 minutos. Hay además una copia como artefacto privado de Claude (https://claude.ai/artifact/VWX6Jj1cHqVtf1Mi3Nwdia), que no lee en vivo y solo se actualiza si se vuelve a publicar. Es de la oficina de cooperación internacional de EsSalud para buscar cooperación ante el FEN 2026-2027. Decisión que informa: a qué aliado pedir qué apoyo y para qué zona.
 
 **Reglas permanentes**
 - Reconocer siempre a la web de aliados del MIDIS (https://claude.ai/artifact/XCFnRvFZUEnCZ79exZgucG) como la referencia de arquitectura y conceptualización: en el pie de la web, en el README y en el pipeline.
@@ -53,11 +53,12 @@ Web estática, publicada como artefacto privado de Claude (https://claude.ai/art
 
 ## Estado y pendientes (actualizar al cerrar cada sesión)
 - 18/11/2026: web con mapa, riesgos, EsSalud, radar, demanda, aliados, niveles y tipologías. Pipeline movido a `docs/`.
-- Pendiente del usuario: importar las plantillas en las 2 hojas y compartirlas como lector. Al 18/11 las dos hojas solo tienen la pestaña «Hoja 1» y siguen privadas (error 401).
+- 18/11: FEN_2026_2027 ya está importada y compartida; Radar y Demanda responden 200 con las columnas correctas.
+- Pendiente del usuario: importar y compartir Identificacion_Aliados_Essalud. Aliados, Oferta y Tipologias todavía dan 401.
 - Después de eso:
   - Comprobar con `curl` que `gviz/tq?tqx=out:csv&sheet=Radar` responde 200.
   - Correr `03_copiar_hojas.py`, armar de nuevo el artefacto y volver a publicarlo.
-- Cada vez que el usuario llene las hojas, el artefacto se actualiza a pedido: copiar las hojas y volver a publicar.
+- GitHub Pages se actualiza solo con las hojas. El artefacto de Claude solo cambia si se vuelve a publicar a pedido.
 - Antes de editar: `git pull`. Para probar: `python -m http.server 8000` en la carpeta del repo.
 - 18/11/2026: copia publicada como artefacto privado de Claude: https://claude.ai/artifact/VWX6Jj1cHqVtf1Mi3Nwdia
   - El artefacto no puede leer las hojas en vivo, porque su política de seguridad bloquea docs.google.com. Usa `datos/copia/*.csv`, así que hay que volver a publicarlo después de correr `03_copiar_hojas.py`.
