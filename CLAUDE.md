@@ -53,8 +53,11 @@ Web estática publicada en GitHub Pages: https://diegosimemirror.github.io/aliad
 
 ## Estado y pendientes (actualizar al cerrar cada sesión)
 - 18/11/2026: web con mapa, riesgos, EsSalud, radar, demanda, aliados, niveles y tipologías. Pipeline movido a `docs/`.
-- 18/11: FEN_2026_2027 ya está importada y compartida; Radar y Demanda responden 200 con las columnas correctas.
-- Pendiente del usuario: importar y compartir Identificacion_Aliados_Essalud. Aliados, Oferta y Tipologias todavía dan 401.
+- 18/11: las 2 hojas ya están importadas y compartidas como lector.
+  - Las 5 pestañas responden 200 y tienen las columnas de la plantilla. Lugares tiene 2114 filas y Listas 13.
+  - La web en Pages dice «En vivo desde Google Sheets».
+  - Las hojas aún no tienen datos, salvo las 6 tipologías.
+- Siguiente: que el usuario registre noticias, demanda, aliados y oferta. Luego, de vez en cuando, correr `03_copiar_hojas.py` y hacer commit, para que la copia de respaldo no quede vieja.
 - Después de eso:
   - Comprobar con `curl` que `gviz/tq?tqx=out:csv&sheet=Radar` responde 200.
   - Correr `03_copiar_hojas.py`, armar de nuevo el artefacto y volver a publicarlo.
