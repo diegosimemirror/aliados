@@ -1,0 +1,767 @@
+﻿id_escenario,ubigeo,nivel,nota,DEPARTAMEN,PROVINCIA,DISTRITO
+1,240101,distrito,,TUMBES,TUMBES,TUMBES
+1,240102,distrito,,TUMBES,TUMBES,CORRALES
+1,240105,distrito,,TUMBES,TUMBES,SAN JACINTO
+1,240106,distrito,,TUMBES,TUMBES,SAN JUAN DE LA VIRGEN
+1,240104,distrito,,TUMBES,TUMBES,PAMPAS DE HOSPITAL
+1,240302,distrito,,TUMBES,ZARUMILLA,AGUAS VERDES
+1,240301,distrito,,TUMBES,ZARUMILLA,ZARUMILLA
+1,240304,distrito,,TUMBES,ZARUMILLA,PAPAYAL
+1,240201,distrito,,TUMBES,CONTRALMIRANTE VILLAR,ZORRITOS
+1,240203,distrito,,TUMBES,CONTRALMIRANTE VILLAR,CANOAS DE PUNTA SAL
+2,200101,distrito,,PIURA,PIURA,PIURA
+2,200104,distrito,,PIURA,PIURA,CASTILLA
+2,200115,distrito,,PIURA,PIURA,VEINTISEIS DE OCTUBRE
+2,200105,distrito,,PIURA,PIURA,CATACAOS
+2,200107,distrito,,PIURA,PIURA,CURA MORI
+2,200108,distrito,,PIURA,PIURA,EL TALLAN
+2,200109,distrito,,PIURA,PIURA,LA ARENA
+2,200110,distrito,,PIURA,PIURA,LA UNION
+2,200804,distrito,La matriz lo lista en la provincia Piura,PIURA,SECHURA,CRISTO NOS VALGA
+2,200801,distrito,,PIURA,SECHURA,SECHURA
+2,200803,distrito,,PIURA,SECHURA,BERNAL
+2,200805,distrito,,PIURA,SECHURA,VICE
+2,200802,distrito,,PIURA,SECHURA,BELLAVISTA DE LA UNION
+3,200601,distrito,,PIURA,SULLANA,SULLANA
+3,200602,distrito,,PIURA,SULLANA,BELLAVISTA
+3,200605,distrito,,PIURA,SULLANA,MARCAVELICA
+3,200603,distrito,,PIURA,SULLANA,IGNACIO ESCUDERO
+3,200607,distrito,,PIURA,SULLANA,QUERECOTILLO
+3,200608,distrito,,PIURA,SULLANA,SALITRAL
+3,200114,distrito,La matriz dice «Tambogrande» (nombre INEI: Tambo Grande),PIURA,PIURA,TAMBO GRANDE
+3,200111,distrito,,PIURA,PIURA,LAS LOMAS
+3,200401,distrito,,PIURA,MORROPON,CHULUCANAS
+3,200405,distrito,,PIURA,MORROPON,MORROPON
+3,200402,distrito,,PIURA,MORROPON,BUENOS AIRES
+3,200404,distrito,,PIURA,MORROPON,LA MATANZA
+4,200706,distrito,,PIURA,TALARA,MANCORA
+4,200705,distrito,,PIURA,TALARA,LOS ORGANOS
+4,200702,distrito,,PIURA,TALARA,EL ALTO
+4,200701,distrito,,PIURA,TALARA,PARIÑAS
+4,200704,distrito,,PIURA,TALARA,LOBITOS
+4,200501,distrito,,PIURA,PAITA,PAITA
+4,200504,distrito,,PIURA,PAITA,COLAN
+4,200507,distrito,,PIURA,PAITA,VICHAYAL
+5,200301,distrito,,PIURA,HUANCABAMBA,HUANCABAMBA
+5,200302,distrito,,PIURA,HUANCABAMBA,CANCHAQUE
+5,200308,distrito,,PIURA,HUANCABAMBA,SONDORILLO
+5,200201,distrito,,PIURA,AYABACA,AYABACA
+5,200206,distrito,,PIURA,AYABACA,PACAIPAMPA
+5,200202,distrito,,PIURA,AYABACA,FRIAS
+5,200205,distrito,,PIURA,AYABACA,MONTERO
+6,140101,distrito,,LAMBAYEQUE,CHICLAYO,CHICLAYO
+6,140105,distrito,,LAMBAYEQUE,CHICLAYO,JOSE LEONARDO ORTIZ
+6,140106,distrito,,LAMBAYEQUE,CHICLAYO,LA VICTORIA
+6,140112,distrito,,LAMBAYEQUE,CHICLAYO,PIMENTEL
+6,140113,distrito,,LAMBAYEQUE,CHICLAYO,REQUE
+6,140115,distrito,La matriz dice «Zaña» (nombre INEI: Saña),LAMBAYEQUE,CHICLAYO,SAÑA
+6,140118,distrito,,LAMBAYEQUE,CHICLAYO,POMALCA
+6,140301,distrito,,LAMBAYEQUE,LAMBAYEQUE,LAMBAYEQUE
+6,140306,distrito,,LAMBAYEQUE,LAMBAYEQUE,MORROPE
+6,140312,distrito,,LAMBAYEQUE,LAMBAYEQUE,TUCUME
+6,140303,distrito,,LAMBAYEQUE,LAMBAYEQUE,ILLIMO
+6,140309,distrito,,LAMBAYEQUE,LAMBAYEQUE,PACORA
+6,140304,distrito,,LAMBAYEQUE,LAMBAYEQUE,JAYANCA
+6,140307,distrito,,LAMBAYEQUE,LAMBAYEQUE,MOTUPE
+6,140308,distrito,,LAMBAYEQUE,LAMBAYEQUE,OLMOS
+6,140201,distrito,,LAMBAYEQUE,FERREÑAFE,FERREÑAFE
+6,140205,distrito,,LAMBAYEQUE,FERREÑAFE,PITIPO
+7,130101,distrito,,LA LIBERTAD,TRUJILLO,TRUJILLO
+7,130102,distrito,,LA LIBERTAD,TRUJILLO,EL PORVENIR
+7,130103,distrito,,LA LIBERTAD,TRUJILLO,FLORENCIA DE MORA
+7,130105,distrito,,LA LIBERTAD,TRUJILLO,LA ESPERANZA
+7,130112,distrito,,LA LIBERTAD,TRUJILLO,ALTO TRUJILLO
+7,130104,distrito,,LA LIBERTAD,TRUJILLO,HUANCHACO
+7,130111,distrito,La matriz dice «Víctor Larco»,LA LIBERTAD,TRUJILLO,VICTOR LARCO HERRERA
+7,130106,distrito,,LA LIBERTAD,TRUJILLO,LAREDO
+7,130107,distrito,,LA LIBERTAD,TRUJILLO,MOCHE
+7,131201,distrito,,LA LIBERTAD,VIRU,VIRU
+7,131202,distrito,,LA LIBERTAD,VIRU,CHAO
+7,130202,distrito,,LA LIBERTAD,ASCOPE,CHICAMA
+7,130205,distrito,,LA LIBERTAD,ASCOPE,PAIJAN
+7,130208,distrito,,LA LIBERTAD,ASCOPE,CASA GRANDE
+7,130702,distrito,,LA LIBERTAD,PACASMAYO,GUADALUPE
+8,060502,distrito,,CAJAMARCA,CONTUMAZA,CHILETE
+8,060101,distrito,La matriz dice «Cajamarca (laderas)»: se toma el distrito capital,CAJAMARCA,CAJAMARCA,CAJAMARCA
+9,021801,distrito,,ANCASH,SANTA,CHIMBOTE
+9,021809,distrito,,ANCASH,SANTA,NUEVO CHIMBOTE
+9,021803,distrito,,ANCASH,SANTA,COISHCO
+9,021808,distrito,,ANCASH,SANTA,SANTA
+9,020801,distrito,,ANCASH,CASMA,CASMA
+9,020803,distrito,,ANCASH,CASMA,COMANDANTE NOEL
+9,021101,distrito,,ANCASH,HUARMEY,HUARMEY
+9,021103,distrito,,ANCASH,HUARMEY,CULEBRAS
+10,020101,distrito,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad,ANCASH,HUARAZ,HUARAZ
+10,020601,distrito,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad,ANCASH,CARHUAZ,CARHUAZ
+10,022001,distrito,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad,ANCASH,YUNGAY,YUNGAY
+10,021201,distrito,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad,ANCASH,HUAYLAS,CARAZ
+11,150118,distrito,"La matriz dice «Lurigancho-Chosica» y «Lurigancho (Carapongo, Cajamarquilla, Huachipa)»: es el mismo distrito",LIMA,LIMA,LURIGANCHO
+11,150107,distrito,,LIMA,LIMA,CHACLACAYO
+11,150103,distrito,La matriz dice «Ate (Huaycán)»,LIMA,LIMA,ATE
+11,150109,distrito,,LIMA,LIMA,CIENEGUILLA
+11,150132,distrito,,LIMA,LIMA,SAN JUAN DE LURIGANCHO
+11,150106,distrito,,LIMA,LIMA,CARABAYLLO
+11,150110,distrito,,LIMA,LIMA,COMAS
+11,150125,distrito,,LIMA,LIMA,PUENTE PIEDRA
+12,150701,distrito,,LIMA,HUAROCHIRI,MATUCANA
+12,150722,distrito,,LIMA,HUAROCHIRI,SAN MATEO
+12,150728,distrito,,LIMA,HUAROCHIRI,SANTA EULALIA
+12,150703,distrito,,LIMA,HUAROCHIRI,CALLAHUANCA
+12,150714,distrito,,LIMA,HUAROCHIRI,RICARDO PALMA
+12,150717,distrito,,LIMA,HUAROCHIRI,SAN BARTOLOME
+12,150508,distrito,,LIMA,CAÑETE,LUNAHUANA
+13,110101,distrito,,ICA,ICA,ICA
+13,110102,distrito,,ICA,ICA,LA TINGUIÑA
+13,110106,distrito,,ICA,ICA,PARCONA
+13,110112,distrito,,ICA,ICA,SUBTANJALLA
+13,110103,distrito,,ICA,ICA,LOS AQUIJES
+13,110107,distrito,,ICA,ICA,PUEBLO NUEVO
+13,110108,distrito,,ICA,ICA,SALAS
+14,040401,distrito,,AREQUIPA,CASTILLA,APLAO
+14,040413,distrito,,AREQUIPA,CASTILLA,URACA
+14,040520,distrito,,AREQUIPA,CAYLLOMA,MAJES
+14,040206,distrito,La matriz lo lista en la provincia Caravelí,AREQUIPA,CAMANA,OCOÑA
+14,040307,distrito,,AREQUIPA,CARAVELI,CHALA
+14,040110,distrito,La matriz dice «Arequipa ciudad (torrenteras de …)»,AREQUIPA,AREQUIPA,MIRAFLORES
+14,040109,distrito,,AREQUIPA,AREQUIPA,MARIANO MELGAR
+14,040112,distrito,,AREQUIPA,AREQUIPA,PAUCARPATA
+14,040103,distrito,,AREQUIPA,AREQUIPA,CAYMA
+15,220901,distrito,Tarapoto no es provincia: se toma el distrito,SAN MARTIN,SAN MARTIN,TARAPOTO
+21,200501,distrito,Puerto de Paita,PIURA,PAITA,PAITA
+21,200801,distrito,Puertos de Sechura y Parachique (Parachique está en el distrito Sechura),PIURA,SECHURA,SECHURA
+21,021801,distrito,Puerto de Chimbote,ANCASH,SANTA,CHIMBOTE
+21,070101,distrito,Puerto del Callao,CALLAO,CALLAO,CALLAO
+21,110501,distrito,Puerto de Pisco,ICA,PISCO,PISCO
+21,180301,distrito,Puerto de Ilo,MOQUEGUA,ILO,ILO
+21,040704,distrito,Puerto de Matarani (capital del distrito Islay),AREQUIPA,ISLAY,ISLAY
+23,200104,distrito,Ejemplo de periferia urbana citado por la matriz,PIURA,PIURA,CASTILLA
+23,200115,distrito,Ejemplo de periferia urbana citado por la matriz,PIURA,PIURA,VEINTISEIS DE OCTUBRE
+23,140105,distrito,La matriz dice «JLO»,LAMBAYEQUE,CHICLAYO,JOSE LEONARDO ORTIZ
+23,130102,distrito,Ejemplo de periferia urbana citado por la matriz,LA LIBERTAD,TRUJILLO,EL PORVENIR
+23,110106,distrito,Ejemplo de periferia urbana citado por la matriz,ICA,ICA,PARCONA
+23,160101,distrito,Ejemplo de periferia urbana citado por la matriz,LORETO,MAYNAS,IQUITOS
+23,250101,distrito,La matriz dice «Pucallpa»: la ciudad está en el distrito Callería,UCAYALI,CORONEL PORTILLO,CALLERIA
+23,060801,distrito,La matriz dice «Cajamarca (Jaén)»: se toma el distrito,CAJAMARCA,JAEN,JAEN
+7,130401,provincia,La matriz nombra la provincia sin distritos: se marca la provincia completa,LA LIBERTAD,CHEPEN,CHEPEN
+7,130402,provincia,La matriz nombra la provincia sin distritos: se marca la provincia completa,LA LIBERTAD,CHEPEN,PACANGA
+7,130403,provincia,La matriz nombra la provincia sin distritos: se marca la provincia completa,LA LIBERTAD,CHEPEN,PUEBLO NUEVO
+8,130601,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,OTUZCO
+8,130602,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,AGALLPAMPA
+8,130604,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,CHARAT
+8,130605,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,HUARANCHAL
+8,130606,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,LA CUESTA
+8,130608,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,MACHE
+8,130610,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,PARANDAY
+8,130611,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,SALPO
+8,130613,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,SINSICAP
+8,130614,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,OTUZCO,USQUIL
+8,130501,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,JULCAN,JULCAN
+8,130502,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,JULCAN,CALAMARCA
+8,130503,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,JULCAN,CARABAMBA
+8,130504,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,JULCAN,HUASO
+8,131001,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,SANTIAGO DE CHUCO
+8,131002,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,ANGASMARCA
+8,131003,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,CACHICADAN
+8,131004,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,MOLLEBAMBA
+8,131005,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,MOLLEPATA
+8,131006,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,QUIRUVILCA
+8,131007,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,SANTA CRUZ DE CHUCA
+8,131008,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,SANTIAGO DE CHUCO,SITABAMBA
+8,131101,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,GRAN CHIMU,CASCAS
+8,131102,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,GRAN CHIMU,LUCMA
+8,131103,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,GRAN CHIMU,MARMOT
+8,131104,provincia,Provincia completa (la matriz no lista distritos),LA LIBERTAD,GRAN CHIMU,SAYAPULLO
+8,060501,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,CONTUMAZA,CONTUMAZA
+8,060503,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,CONTUMAZA,CUPISNIQUE
+8,060504,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,CONTUMAZA,GUZMANGO
+8,060505,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,CONTUMAZA,SAN BENITO
+8,060506,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,CONTUMAZA,SANTA CRUZ DE TOLED
+8,060507,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,CONTUMAZA,TANTARICA
+8,060508,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,CONTUMAZA,YONAN
+8,061201,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN PABLO,SAN PABLO
+8,061202,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN PABLO,SAN BERNARDINO
+8,061203,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN PABLO,SAN LUIS
+8,061204,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN PABLO,TUMBADEN
+8,061101,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,SAN MIGUEL
+8,061102,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,BOLIVAR
+8,061103,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,CALQUIS
+8,061104,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,CATILLUC
+8,061105,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,EL PRADO
+8,061106,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,LA FLORIDA
+8,061107,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,LLAPA
+8,061108,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,NANCHOC
+8,061109,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,NIEPOS
+8,061110,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,SAN GREGORIO
+8,061111,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,SAN SILVESTRE DE COCHAN
+8,061112,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,TONGOD
+8,061113,provincia,Provincia completa (la matriz no lista distritos),CAJAMARCA,SAN MIGUEL,UNION AGUA BLANCA
+12,150401,provincia,Provincia completa (la matriz no lista distritos),LIMA,CANTA,CANTA
+12,150402,provincia,Provincia completa (la matriz no lista distritos),LIMA,CANTA,ARAHUAY
+12,150403,provincia,Provincia completa (la matriz no lista distritos),LIMA,CANTA,HUAMANTANGA
+12,150404,provincia,Provincia completa (la matriz no lista distritos),LIMA,CANTA,HUAROS
+12,150405,provincia,Provincia completa (la matriz no lista distritos),LIMA,CANTA,LACHAQUI
+12,150406,provincia,Provincia completa (la matriz no lista distritos),LIMA,CANTA,SAN BUENAVENTURA
+12,150407,provincia,Provincia completa (la matriz no lista distritos),LIMA,CANTA,SANTA ROSA DE QUIVES
+12,150601,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,HUARAL
+12,150602,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,ATAVILLOS ALTO
+12,150603,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,ATAVILLOS BAJO
+12,150604,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,AUCALLAMA
+12,150605,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,CHANCAY
+12,150606,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,IHUARI
+12,150607,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,LAMPIAN
+12,150608,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,PACARAOS
+12,150609,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,SAN MIGUEL DE ACOS
+12,150610,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,SANTA CRUZ DE ANDAMARCA
+12,150611,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,SUMBILCA
+12,150612,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUARAL,VEINTISIETE DE NOVIEMBRE
+12,150801,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,HUACHO
+12,150802,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,AMBAR
+12,150803,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,CALETA DE CARQUIN
+12,150804,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,CHECRAS
+12,150805,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,HUALMAY
+12,150806,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,HUAURA
+12,150807,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,LEONCIO PRADO
+12,150808,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,PACCHO
+12,150809,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,SANTA LEONOR
+12,150810,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,SANTA MARIA
+12,150811,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,SAYAN
+12,150812,provincia,Provincia completa (la matriz no lista distritos),LIMA,HUAURA,VEGUETA
+12,150201,provincia,Provincia completa (la matriz no lista distritos),LIMA,BARRANCA,BARRANCA
+12,150202,provincia,Provincia completa (la matriz no lista distritos),LIMA,BARRANCA,PARAMONGA
+12,150203,provincia,Provincia completa (la matriz no lista distritos),LIMA,BARRANCA,PATIVILCA
+12,150204,provincia,Provincia completa (la matriz no lista distritos),LIMA,BARRANCA,SUPE
+12,150205,provincia,Provincia completa (la matriz no lista distritos),LIMA,BARRANCA,SUPE PUERTO
+12,151001,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,YAUYOS
+12,151002,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,ALIS
+12,151003,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,ALLAUCA
+12,151004,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,AYAVIRI
+12,151005,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,AZANGARO
+12,151006,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,CACRA
+12,151007,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,CARANIA
+12,151008,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,CATAHUASI
+12,151009,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,CHOCOS
+12,151010,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,COCHAS
+12,151011,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,COLONIA
+12,151012,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,HONGOS
+12,151013,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,HUAMPARA
+12,151014,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,HUANCAYA
+12,151015,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,HUANGASCAR
+12,151016,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,HUANTAN
+12,151017,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,HUAÑEC
+12,151018,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,LARAOS
+12,151019,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,LINCHA
+12,151020,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,MADEAN
+12,151021,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,MIRAFLORES
+12,151022,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,OMAS
+12,151023,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,PUTINZA
+12,151024,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,QUINCHES
+12,151025,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,QUINOCAY
+12,151026,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,SAN JOAQUIN
+12,151027,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,SAN PEDRO DE PILAS
+12,151028,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,TANTA
+12,151029,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,TAURIPAMPA
+12,151030,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,TOMAS
+12,151031,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,TUPE
+12,151032,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,VIÑAC
+12,151033,provincia,Provincia completa (la matriz no lista distritos),LIMA,YAUYOS,VITIS
+13,110501,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,PISCO
+13,110502,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,HUANCANO
+13,110503,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,HUMAY
+13,110504,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,INDEPENDENCIA
+13,110505,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,PARACAS
+13,110506,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,SAN ANDRES
+13,110507,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,SAN CLEMENTE
+13,110508,provincia,Provincia completa (la matriz no lista distritos),ICA,PISCO,TUPAC AMARU INCA
+13,110201,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,CHINCHA ALTA
+13,110202,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,ALTO LARAN
+13,110203,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,CHAVIN
+13,110204,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,CHINCHA BAJA
+13,110205,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,EL CARMEN
+13,110206,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,GROCIO PRADO
+13,110207,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,PUEBLO NUEVO
+13,110208,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,SAN JUAN DE YANAC
+13,110209,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,SAN PEDRO DE HUACARPANA
+13,110210,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,SUNAMPE
+13,110211,provincia,Provincia completa (la matriz no lista distritos),ICA,CHINCHA,TAMBO DE MORA
+13,110401,provincia,Provincia completa (la matriz no lista distritos),ICA,PALPA,PALPA
+13,110402,provincia,Provincia completa (la matriz no lista distritos),ICA,PALPA,LLIPATA
+13,110403,provincia,Provincia completa (la matriz no lista distritos),ICA,PALPA,RIO GRANDE
+13,110404,provincia,Provincia completa (la matriz no lista distritos),ICA,PALPA,SANTA CRUZ
+13,110405,provincia,Provincia completa (la matriz no lista distritos),ICA,PALPA,TIBILLO
+13,110301,provincia,Provincia completa (la matriz no lista distritos),ICA,NASCA,NASCA
+13,110302,provincia,Provincia completa (la matriz no lista distritos),ICA,NASCA,CHANGUILLO
+13,110303,provincia,Provincia completa (la matriz no lista distritos),ICA,NASCA,EL INGENIO
+13,110304,provincia,Provincia completa (la matriz no lista distritos),ICA,NASCA,MARCONA
+13,110305,provincia,Provincia completa (la matriz no lista distritos),ICA,NASCA,VISTA ALEGRE
+14,040201,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CAMANA,CAMANA
+14,040202,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CAMANA,JOSE MARIA QUIMPER
+14,040203,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CAMANA,MARIANO NICOLAS VALCARCEL
+14,040204,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CAMANA,MARISCAL CACERES
+14,040205,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CAMANA,NICOLAS DE PIEROLA
+14,040207,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CAMANA,QUILCA
+14,040208,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CAMANA,SAMUEL PASTOR
+14,040601,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,CHUQUIBAMBA
+14,040602,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,ANDARAY
+14,040603,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,CAYARANI
+14,040604,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,CHICHAS
+14,040605,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,IRAY
+14,040606,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,RIO GRANDE
+14,040607,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,SALAMANCA
+14,040608,provincia,Provincia completa (la matriz no lista distritos),AREQUIPA,CONDESUYOS,YANAQUIHUA
+15,060801,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,JAEN
+15,060802,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,BELLAVISTA
+15,060803,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,CHONTALI
+15,060804,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,COLASAY
+15,060805,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,HUABAL
+15,060806,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,LAS PIRIAS
+15,060807,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,POMAHUACA
+15,060808,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,PUCARA
+15,060809,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,SALLIQUE
+15,060810,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,SAN FELIPE
+15,060811,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,SAN JOSE DEL ALTO
+15,060812,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,JAEN,SANTA ROSA
+15,060901,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,SAN IGNACIO,SAN IGNACIO
+15,060902,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,SAN IGNACIO,CHIRINOS
+15,060903,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,SAN IGNACIO,HUARANGO
+15,060904,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,SAN IGNACIO,LA COIPA
+15,060905,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,SAN IGNACIO,NAMBALLE
+15,060906,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,SAN IGNACIO,SAN JOSE DE LOURDES
+15,060907,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,SAN IGNACIO,TABACONAS
+15,060601,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,CUTERVO
+15,060602,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,CALLAYUC
+15,060603,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,CHOROS
+15,060604,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,CUJILLO
+15,060605,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,LA RAMADA
+15,060606,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,PIMPINGOS
+15,060607,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,QUEROCOTILLO
+15,060608,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,SAN ANDRES DE CUTERVO
+15,060609,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,SAN JUAN DE CUTERVO
+15,060610,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,SAN LUIS DE LUCMA
+15,060611,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,SANTA CRUZ
+15,060612,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,SANTO DOMINGO DE LA CAPILLA
+15,060613,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,SANTO TOMAS
+15,060614,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,SOCOTA
+15,060615,provincia,La matriz lista provincias dentro del departamento: provincia completa,CAJAMARCA,CUTERVO,TORIBIO CASANOVA
+15,010201,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,BAGUA,BAGUA
+15,010202,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,BAGUA,ARAMANGO
+15,010203,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,BAGUA,COPALLIN
+15,010204,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,BAGUA,EL PARCO
+15,010205,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,BAGUA,IMAZA
+15,010206,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,BAGUA,LA PECA
+15,010701,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,UTCUBAMBA,BAGUA GRANDE
+15,010702,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,UTCUBAMBA,CAJARURO
+15,010703,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,UTCUBAMBA,CUMBA
+15,010704,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,UTCUBAMBA,EL MILAGRO
+15,010705,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,UTCUBAMBA,JAMALCA
+15,010706,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,UTCUBAMBA,LONYA GRANDE
+15,010707,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,UTCUBAMBA,YAMON
+15,010101,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,CHACHAPOYAS
+15,010102,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,ASUNCION
+15,010103,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,BALSAS
+15,010104,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,CHETO
+15,010105,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,CHILIQUIN
+15,010106,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,CHUQUIBAMBA
+15,010107,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,GRANADA
+15,010108,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,HUANCAS
+15,010109,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,LA JALCA
+15,010110,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,LEIMEBAMBA
+15,010111,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,LEVANTO
+15,010112,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,MAGDALENA
+15,010113,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,MARISCAL CASTILLA
+15,010114,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,MOLINOPAMPA
+15,010115,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,MONTEVIDEO
+15,010116,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,OLLEROS
+15,010117,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,QUINJALCA
+15,010118,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,SAN FRANCISCO DE DAGUAS
+15,010119,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,SAN ISIDRO DE MAINO
+15,010120,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,SOLOCO
+15,010121,provincia,La matriz lista provincias dentro del departamento: provincia completa,AMAZONAS,CHACHAPOYAS,SONCHE
+15,220101,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,MOYOBAMBA,MOYOBAMBA
+15,220102,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,MOYOBAMBA,CALZADA
+15,220103,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,MOYOBAMBA,HABANA
+15,220104,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,MOYOBAMBA,JEPELACIO
+15,220105,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,MOYOBAMBA,SORITOR
+15,220106,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,MOYOBAMBA,YANTALO
+15,220801,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,RIOJA
+15,220802,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,AWAJUN
+15,220803,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,ELIAS SOPLIN VARGAS
+15,220804,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,NUEVA CAJAMARCA
+15,220805,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,PARDO MIGUEL
+15,220806,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,POSIC
+15,220807,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,SAN FERNANDO
+15,220808,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,YORONGOS
+15,220809,provincia,La matriz lista provincias dentro del departamento: provincia completa,SAN MARTIN,RIOJA,YURACYACU
+16,100101,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,HUANUCO
+16,100102,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,AMARILIS
+16,100103,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,CHINCHAO
+16,100104,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,CHURUBAMBA
+16,100105,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,MARGOS
+16,100106,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,QUISQUI (KICHKI)
+16,100107,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,SAN FRANCISCO DE CAYRAN
+16,100108,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,SAN PEDRO DE CHAULAN
+16,100109,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,SANTA MARIA DEL VALLE
+16,100110,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,YARUMAYO
+16,100111,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,PILLCO MARCA
+16,100112,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,YACUS
+16,100113,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,HUANUCO,SAN PABLO DE PILLAO
+16,100201,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,AMBO
+16,100202,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,CAYNA
+16,100203,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,COLPAS
+16,100204,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,CONCHAMARCA
+16,100205,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,HUACAR
+16,100206,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,SAN FRANCISCO
+16,100207,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,SAN RAFAEL
+16,100208,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,AMBO,TOMAY KICHWA
+16,100601,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,RUPA-RUPA
+16,100602,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,DANIEL ALOMIA ROBLES
+16,100603,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,HERMILIO VALDIZAN
+16,100604,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,JOSE CRESPO Y CASTILLO
+16,100605,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,LUYANDO
+16,100606,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,MARIANO DAMASO BERAUN
+16,100607,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,PUCAYACU
+16,100608,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,CASTILLO GRANDE
+16,100609,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,PUEBLO NUEVO
+16,100610,provincia,Provincia completa (la matriz no lista distritos),HUANUCO,LEONCIO PRADO,SANTO DOMINGO DE ANDA
+16,120301,provincia,Provincia completa (la matriz no lista distritos),JUNIN,CHANCHAMAYO,CHANCHAMAYO
+16,120302,provincia,Provincia completa (la matriz no lista distritos),JUNIN,CHANCHAMAYO,PERENE
+16,120303,provincia,Provincia completa (la matriz no lista distritos),JUNIN,CHANCHAMAYO,PICHANAQUI
+16,120304,provincia,Provincia completa (la matriz no lista distritos),JUNIN,CHANCHAMAYO,SAN LUIS DE SHUARO
+16,120305,provincia,Provincia completa (la matriz no lista distritos),JUNIN,CHANCHAMAYO,SAN RAMON
+16,120306,provincia,Provincia completa (la matriz no lista distritos),JUNIN,CHANCHAMAYO,VITOC
+16,120601,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,SATIPO
+16,120602,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,COVIRIALI
+16,120603,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,LLAYLLA
+16,120604,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,MAZAMARI
+16,120605,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,PAMPA HERMOSA
+16,120606,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,PANGOA
+16,120607,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,RIO NEGRO
+16,120608,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,RIO TAMBO
+16,120609,provincia,Provincia completa (la matriz no lista distritos),JUNIN,SATIPO,VIZCATÁN DEL ENE
+16,050101,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,AYACUCHO
+16,050102,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,ACOCRO
+16,050103,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,ACOS VINCHOS
+16,050104,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,CARMEN ALTO
+16,050105,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,CHIARA
+16,050106,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,OCROS
+16,050107,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,PACAYCASA
+16,050108,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,QUINUA
+16,050109,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,SAN JOSE DE TICLLAS
+16,050110,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,SAN JUAN BAUTISTA
+16,050111,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,SANTIAGO DE PISCHA
+16,050112,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,SOCOS
+16,050113,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,TAMBILLO
+16,050114,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,VINCHOS
+16,050115,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,JESUS NAZARENO
+16,050116,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUAMANGA,ANDRES AVELINO CACERES DORREGARAY
+16,050401,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,HUANTA
+16,050402,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,AYAHUANCO
+16,050403,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,HUAMANGUILLA
+16,050404,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,IGUAIN
+16,050405,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,LURICOCHA
+16,050406,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,SANTILLANA
+16,050407,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,SIVIA
+16,050408,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,LLOCHEGUA
+16,050409,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,CANAYRE
+16,050410,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,UCHURACCAY
+16,050411,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,PUCACOLPA
+16,050412,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,CHACA
+16,050413,provincia,Provincia completa (la matriz no lista distritos),AYACUCHO,HUANTA,PUTIS
+17,210201,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,AZANGARO
+17,210202,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,ACHAYA
+17,210203,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,ARAPA
+17,210204,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,ASILLO
+17,210205,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,CAMINACA
+17,210206,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,CHUPA
+17,210207,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,JOSE DOMINGO CHOQUEHUANCA
+17,210208,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,MUÑANI
+17,210209,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,POTONI
+17,210210,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,SAMAN
+17,210211,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,SAN ANTON
+17,210212,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,SAN JOSE
+17,210213,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,SAN JUAN DE SALINAS
+17,210214,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,SANTIAGO DE PUPUJA
+17,210215,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,AZANGARO,TIRAPATA
+17,210601,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,HUANCANE
+17,210602,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,COJATA
+17,210603,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,HUATASANI
+17,210604,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,INCHUPALLA
+17,210605,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,PUSI
+17,210606,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,ROSASPATA
+17,210607,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,TARACO
+17,210608,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,HUANCANE,VILQUE CHICO
+17,210801,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,AYAVIRI
+17,210802,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,ANTAUTA
+17,210803,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,CUPI
+17,210804,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,LLALLI
+17,210805,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,MACARI
+17,210806,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,NUÑOA
+17,210807,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,ORURILLO
+17,210808,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,SANTA ROSA
+17,210809,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MELGAR,UMACHIRI
+17,210701,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,LAMPA
+17,210702,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,CABANILLA
+17,210703,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,CALAPUJA
+17,210704,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,NICASIO
+17,210705,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,OCUVIRI
+17,210706,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,PALCA
+17,210707,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,PARATIA
+17,210708,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,PUCARA
+17,210709,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,SANTA LUCIA
+17,210710,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,LAMPA,VILAVILA
+17,211101,provincia,La matriz dice «San Román (zona rural)»: provincia completa,PUNO,SAN ROMAN,JULIACA
+17,211102,provincia,La matriz dice «San Román (zona rural)»: provincia completa,PUNO,SAN ROMAN,CABANA
+17,211103,provincia,La matriz dice «San Román (zona rural)»: provincia completa,PUNO,SAN ROMAN,CABANILLAS
+17,211104,provincia,La matriz dice «San Román (zona rural)»: provincia completa,PUNO,SAN ROMAN,CARACOTO
+17,211105,provincia,La matriz dice «San Román (zona rural)»: provincia completa,PUNO,SAN ROMAN,SAN MIGUEL
+17,210101,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,PUNO
+17,210102,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,ACORA
+17,210103,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,AMANTANI
+17,210104,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,ATUNCOLLA
+17,210105,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,CAPACHICA
+17,210106,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,CHUCUITO
+17,210107,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,COATA
+17,210108,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,HUATA
+17,210109,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,MAÑAZO
+17,210110,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,PAUCARCOLLA
+17,210111,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,PICHACANI
+17,210112,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,PLATERIA
+17,210113,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,SAN ANTONIO
+17,210114,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,TIQUILLACA
+17,210115,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,PUNO,VILQUE
+17,210501,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,EL COLLAO,ILAVE
+17,210502,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,EL COLLAO,CAPAZO
+17,210503,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,EL COLLAO,PILCUYO
+17,210504,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,EL COLLAO,SANTA ROSA
+17,210505,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,EL COLLAO,CONDURIRI
+17,210401,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CHUCUITO,JULI
+17,210402,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CHUCUITO,DESAGUADERO
+17,210403,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CHUCUITO,HUACULLANI
+17,210404,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CHUCUITO,KELLUYO
+17,210405,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CHUCUITO,PISACOMA
+17,210406,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CHUCUITO,POMATA
+17,210407,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CHUCUITO,ZEPITA
+17,210901,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MOHO,MOHO
+17,210902,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MOHO,CONIMA
+17,210903,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MOHO,HUAYRAPATA
+17,210904,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,MOHO,TILALI
+17,210301,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,MACUSANI
+17,210302,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,AJOYANI
+17,210303,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,AYAPATA
+17,210304,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,COASA
+17,210305,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,CORANI
+17,210306,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,CRUCERO
+17,210307,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,ITUATA
+17,210308,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,OLLACHEA
+17,210309,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,SAN GABAN
+17,210310,provincia,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas,PUNO,CARABAYA,USICAYOS
+18,080801,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,ESPINAR
+18,080802,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,CONDOROMA
+18,080803,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,COPORAQUE
+18,080804,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,OCORURO
+18,080805,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,PALLPATA
+18,080806,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,PICHIGUA
+18,080807,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,SUYCKUTAMBO
+18,080808,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,ESPINAR,ALTO PICHIGUA
+18,080501,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,YANAOCA
+18,080502,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,CHECCA
+18,080503,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,KUNTURKANKI
+18,080504,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,LANGUI
+18,080505,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,LAYO
+18,080506,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,PAMPAMARCA
+18,080507,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,QUEHUE
+18,080508,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANAS,TUPAC AMARU
+18,080601,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,SICUANI
+18,080602,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,CHECACUPE
+18,080603,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,COMBAPATA
+18,080604,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,MARANGANI
+18,080605,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,PITUMARCA
+18,080606,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,SAN PABLO
+18,080607,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,SAN PEDRO
+18,080608,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CANCHIS,TINTA
+18,080701,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,SANTO TOMAS
+18,080702,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,CAPACMARCA
+18,080703,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,CHAMACA
+18,080704,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,COLQUEMARCA
+18,080705,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,LIVITACA
+18,080706,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,LLUSCO
+18,080707,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,QUIÑOTA
+18,080708,provincia,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas,CUSCO,CHUMBIVILCAS,VELILLE
+19,040501,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,CHIVAY
+19,040502,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,ACHOMA
+19,040503,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,CABANACONDE
+19,040504,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,CALLALLI
+19,040505,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,CAYLLOMA
+19,040506,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,COPORAQUE
+19,040507,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,HUAMBO
+19,040508,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,HUANCA
+19,040509,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,ICHUPAMPA
+19,040510,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,LARI
+19,040511,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,LLUTA
+19,040512,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,MACA
+19,040513,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,MADRIGAL
+19,040514,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,SAN ANTONIO DE CHUCA
+19,040515,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,SIBAYO
+19,040516,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,TAPAY
+19,040517,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,TISCO
+19,040518,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,TUTI
+19,040519,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,YANQUE
+19,040520,provincia,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa,AREQUIPA,CAYLLOMA,MAJES
+19,030401,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,CHALHUANCA
+19,030402,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,CAPAYA
+19,030403,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,CARAYBAMBA
+19,030404,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,CHAPIMARCA
+19,030405,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,COLCABAMBA
+19,030406,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,COTARUSE
+19,030407,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,IHUAYLLO
+19,030408,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,JUSTO APU SAHUARAURA
+19,030409,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,LUCRE
+19,030410,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,POCOHUANCA
+19,030411,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,SAN JUAN DE CHACÑA
+19,030412,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,SAÑAYCA
+19,030413,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,SORAYA
+19,030414,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,TAPAIRIHUA
+19,030415,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,TINTAY
+19,030416,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,TORAYA
+19,030417,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,AYMARAES,YANACA
+19,030301,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,ANTABAMBA,ANTABAMBA
+19,030302,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,ANTABAMBA,EL ORO
+19,030303,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,ANTABAMBA,HUAQUIRCA
+19,030304,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,ANTABAMBA,JUAN ESPINOZA MEDRANO
+19,030305,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,ANTABAMBA,OROPESA
+19,030306,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,ANTABAMBA,PACHACONAS
+19,030307,provincia,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas",APURIMAC,ANTABAMBA,SABAINO
+19,050601,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,PUQUIO
+19,050602,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,AUCARA
+19,050603,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,CABANA
+19,050604,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,CARMEN SALCEDO
+19,050605,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,CHAVIÑA
+19,050606,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,CHIPAO
+19,050607,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,HUAC-HUAS
+19,050608,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,LARAMATE
+19,050609,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,LEONCIO PRADO
+19,050610,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,LLAUTA
+19,050611,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,LUCANAS
+19,050612,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,OCAÑA
+19,050613,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,OTOCA
+19,050614,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SAISA
+19,050615,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SAN CRISTOBAL
+19,050616,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SAN JUAN
+19,050617,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SAN PEDRO
+19,050618,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SAN PEDRO DE PALCO
+19,050619,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SANCOS
+19,050620,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SANTA ANA DE HUAYCAHUACHO
+19,050621,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,LUCANAS,SANTA LUCIA
+19,050701,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,CORACORA
+19,050702,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,CHUMPI
+19,050703,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,CORONEL CASTAÑEDA
+19,050704,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,PACAPAUSA
+19,050705,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,PULLO
+19,050706,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,PUYUSCA
+19,050707,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,SAN FRANCISCO DE RAVACAYCO
+19,050708,provincia,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas",AYACUCHO,PARINACOCHAS,UPAHUACHO
+19,180201,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,OMATE
+19,180202,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,CHOJATA
+19,180203,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,COALAQUE
+19,180204,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,ICHUÑA
+19,180205,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,LA CAPILLA
+19,180206,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,LLOQUE
+19,180207,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,MATALAQUE
+19,180208,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,PUQUINA
+19,180209,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,QUINISTAQUILLAS
+19,180210,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,UBINAS
+19,180211,provincia,La matriz dice «4 (General Sánchez Cerro)»: provincia completa,MOQUEGUA,GENERAL SANCHEZ CERRO,YUNGA
+19,230401,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,TARATA
+19,230402,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,HEROES ALBARRACIN
+19,230403,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,ESTIQUE
+19,230404,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,ESTIQUE-PAMPA
+19,230405,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,SITAJARA
+19,230406,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,SUSAPAYA
+19,230407,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,TARUCACHI
+19,230408,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,TARATA,TICACO
+19,230201,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,CANDARAVE,CANDARAVE
+19,230202,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,CANDARAVE,CAIRANI
+19,230203,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,CANDARAVE,CAMILACA
+19,230204,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,CANDARAVE,CURIBAYA
+19,230205,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,CANDARAVE,HUANUARA
+19,230206,provincia,"La matriz dice «4 (Tarata, Candarave)»: provincias completas",TACNA,CANDARAVE,QUILAHUANI
+20,160101,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,IQUITOS
+20,160102,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,ALTO NANAY
+20,160103,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,FERNANDO LORES
+20,160104,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,INDIANA
+20,160105,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,LAS AMAZONAS
+20,160106,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,MAZAN
+20,160107,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,NAPO
+20,160108,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,PUNCHANA
+20,160110,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,TORRES CAUSANA
+20,160112,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,BELEN
+20,160113,provincia,La matriz dice «Maynas–Iquitos»: provincia completa,LORETO,MAYNAS,SAN JUAN BAUTISTA
+20,160201,provincia,La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa,LORETO,ALTO AMAZONAS,YURIMAGUAS
+20,160202,provincia,La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa,LORETO,ALTO AMAZONAS,BALSAPUERTO
+20,160205,provincia,La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa,LORETO,ALTO AMAZONAS,JEBEROS
+20,160206,provincia,La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa,LORETO,ALTO AMAZONAS,LAGUNAS
+20,160210,provincia,La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa,LORETO,ALTO AMAZONAS,SANTA CRUZ
+20,160211,provincia,La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa,LORETO,ALTO AMAZONAS,TENIENTE CESAR LOPEZ ROJAS
+20,160701,provincia,Provincia completa,LORETO,DATEM DEL MARAÑON,BARRANCA
+20,160702,provincia,Provincia completa,LORETO,DATEM DEL MARAÑON,CAHUAPANAS
+20,160703,provincia,Provincia completa,LORETO,DATEM DEL MARAÑON,MANSERICHE
+20,160704,provincia,Provincia completa,LORETO,DATEM DEL MARAÑON,MORONA
+20,160705,provincia,Provincia completa,LORETO,DATEM DEL MARAÑON,PASTAZA
+20,160706,provincia,Provincia completa,LORETO,DATEM DEL MARAÑON,ANDOAS
+20,160501,provincia,Provincia completa,LORETO,REQUENA,REQUENA
+20,160502,provincia,Provincia completa,LORETO,REQUENA,ALTO TAPICHE
+20,160503,provincia,Provincia completa,LORETO,REQUENA,CAPELO
+20,160504,provincia,Provincia completa,LORETO,REQUENA,EMILIO SAN MARTIN
+20,160505,provincia,Provincia completa,LORETO,REQUENA,MAQUIA
+20,160506,provincia,Provincia completa,LORETO,REQUENA,PUINAHUA
+20,160507,provincia,Provincia completa,LORETO,REQUENA,SAQUENA
+20,160508,provincia,Provincia completa,LORETO,REQUENA,SOPLIN
+20,160509,provincia,Provincia completa,LORETO,REQUENA,TAPICHE
+20,160510,provincia,Provincia completa,LORETO,REQUENA,JENARO HERRERA
+20,160511,provincia,Provincia completa,LORETO,REQUENA,YAQUERANA
+20,250101,provincia,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa,UCAYALI,CORONEL PORTILLO,CALLERIA
+20,250102,provincia,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa,UCAYALI,CORONEL PORTILLO,CAMPOVERDE
+20,250103,provincia,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa,UCAYALI,CORONEL PORTILLO,IPARIA
+20,250104,provincia,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa,UCAYALI,CORONEL PORTILLO,MASISEA
+20,250105,provincia,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa,UCAYALI,CORONEL PORTILLO,YARINACOCHA
+20,250106,provincia,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa,UCAYALI,CORONEL PORTILLO,NUEVA REQUENA
+20,250107,provincia,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa,UCAYALI,CORONEL PORTILLO,MANANTAY
+16,190101,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,CHAUPIMARCA
+16,190102,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,HUACHON
+16,190103,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,HUARIACA
+16,190104,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,HUAYLLAY
+16,190105,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,NINACACA
+16,190106,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,PALLANCHACRA
+16,190107,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,PAUCARTAMBO
+16,190108,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,SAN FRANCISCO DE ASIS DE YARUSYACAN
+16,190109,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,SIMON BOLIVAR
+16,190110,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,TICLACAYAN
+16,190111,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,TINYAHUARCO
+16,190112,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,VICCO
+16,190113,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,PASCO,YANACANCHA
+16,190201,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,YANAHUANCA
+16,190202,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,CHACAYAN
+16,190203,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,GOYLLARISQUIZGA
+16,190204,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,PAUCAR
+16,190205,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,SAN PEDRO DE PILLAO
+16,190206,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,SANTA ANA DE TUSI
+16,190207,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,TAPUC
+16,190208,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,DANIEL ALCIDES CARRION,VILCABAMBA
+16,190301,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,OXAPAMPA
+16,190302,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,CHONTABAMBA
+16,190303,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,HUANCABAMBA
+16,190304,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,PALCAZU
+16,190305,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,POZUZO
+16,190306,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,PUERTO BERMUDEZ
+16,190307,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,VILLA RICA
+16,190308,departamento,La matriz nombra el departamento sin detalle: departamento completo,PASCO,OXAPAMPA,CONSTITUCION
+20,170101,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,TAMBOPATA,TAMBOPATA
+20,170102,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,TAMBOPATA,INAMBARI
+20,170103,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS
+20,170104,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,TAMBOPATA,LABERINTO
+20,170201,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,MANU,MANU
+20,170202,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,MANU,FITZCARRALD
+20,170203,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,MANU,MADRE DE DIOS
+20,170204,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,MANU,HUEPETUHE
+20,170301,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,TAHUAMANU,IÑAPARI
+20,170302,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,TAHUAMANU,IBERIA
+20,170303,departamento,La matriz nombra el departamento sin detalle: departamento completo,MADRE DE DIOS,TAHUAMANU,TAHUAMANU

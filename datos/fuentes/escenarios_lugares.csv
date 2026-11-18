@@ -1,0 +1,211 @@
+id_escenario,departamento,provincia,distrito,cartografiado,nota
+1,Tumbes,Tumbes,Tumbes,si,
+1,Tumbes,Tumbes,Corrales,si,
+1,Tumbes,Tumbes,San Jacinto,si,
+1,Tumbes,Tumbes,San Juan de la Virgen,si,
+1,Tumbes,Tumbes,Pampas de Hospital,si,
+1,Tumbes,Zarumilla,Aguas Verdes,si,
+1,Tumbes,Zarumilla,Zarumilla,si,
+1,Tumbes,Zarumilla,Papayal,si,
+1,Tumbes,Contralmirante Villar,Zorritos,si,
+1,Tumbes,Contralmirante Villar,Canoas de Punta Sal,si,
+2,Piura,Piura,Piura,si,
+2,Piura,Piura,Castilla,si,
+2,Piura,Piura,Veintiséis de Octubre,si,
+2,Piura,Piura,Catacaos,si,
+2,Piura,Piura,Cura Mori,si,
+2,Piura,Piura,El Tallán,si,
+2,Piura,Piura,La Arena,si,
+2,Piura,Piura,La Unión,si,
+2,Piura,Piura,Cristo Nos Valga,si,La matriz lo lista en la provincia Piura
+2,Piura,Sechura,Sechura,si,
+2,Piura,Sechura,Bernal,si,
+2,Piura,Sechura,Vice,si,
+2,Piura,Sechura,Bellavista de la Unión,si,
+3,Piura,Sullana,Sullana,si,
+3,Piura,Sullana,Bellavista,si,
+3,Piura,Sullana,Marcavelica,si,
+3,Piura,Sullana,Ignacio Escudero,si,
+3,Piura,Sullana,Querecotillo,si,
+3,Piura,Sullana,Salitral,si,
+3,Piura,Piura,Tambo Grande,si,La matriz dice «Tambogrande» (nombre INEI: Tambo Grande)
+3,Piura,Piura,Las Lomas,si,
+3,Piura,Morropón,Chulucanas,si,
+3,Piura,Morropón,Morropón,si,
+3,Piura,Morropón,Buenos Aires,si,
+3,Piura,Morropón,La Matanza,si,
+4,Piura,Talara,Máncora,si,
+4,Piura,Talara,Los Órganos,si,
+4,Piura,Talara,El Alto,si,
+4,Piura,Talara,Pariñas,si,
+4,Piura,Talara,Lobitos,si,
+4,Piura,Paita,Paita,si,
+4,Piura,Paita,Colán,si,
+4,Piura,Paita,Vichayal,si,
+5,Piura,Huancabamba,Huancabamba,si,
+5,Piura,Huancabamba,Canchaque,si,
+5,Piura,Huancabamba,Sondorillo,si,
+5,Piura,Ayabaca,Ayabaca,si,
+5,Piura,Ayabaca,Pacaipampa,si,
+5,Piura,Ayabaca,Frías,si,
+5,Piura,Ayabaca,Montero,si,
+6,Lambayeque,Chiclayo,Chiclayo,si,
+6,Lambayeque,Chiclayo,José Leonardo Ortiz,si,
+6,Lambayeque,Chiclayo,La Victoria,si,
+6,Lambayeque,Chiclayo,Pimentel,si,
+6,Lambayeque,Chiclayo,Reque,si,
+6,Lambayeque,Chiclayo,Saña,si,La matriz dice «Zaña» (nombre INEI: Saña)
+6,Lambayeque,Chiclayo,Pomalca,si,
+6,Lambayeque,Lambayeque,Lambayeque,si,
+6,Lambayeque,Lambayeque,Mórrope,si,
+6,Lambayeque,Lambayeque,Túcume,si,
+6,Lambayeque,Lambayeque,Íllimo,si,
+6,Lambayeque,Lambayeque,Pacora,si,
+6,Lambayeque,Lambayeque,Jayanca,si,
+6,Lambayeque,Lambayeque,Motupe,si,
+6,Lambayeque,Lambayeque,Olmos,si,
+6,Lambayeque,Ferreñafe,Ferreñafe,si,
+6,Lambayeque,Ferreñafe,Pítipo,si,
+7,La Libertad,Trujillo,Trujillo,si,
+7,La Libertad,Trujillo,El Porvenir,si,
+7,La Libertad,Trujillo,Florencia de Mora,si,
+7,La Libertad,Trujillo,La Esperanza,si,
+7,La Libertad,Trujillo,Alto Trujillo,si,
+7,La Libertad,Trujillo,Huanchaco,si,
+7,La Libertad,Trujillo,Víctor Larco Herrera,si,La matriz dice «Víctor Larco»
+7,La Libertad,Trujillo,Laredo,si,
+7,La Libertad,Trujillo,Moche,si,
+7,La Libertad,Virú,Virú,si,
+7,La Libertad,Virú,Chao,si,
+7,La Libertad,Ascope,Chicama,si,
+7,La Libertad,Ascope,Paiján,si,
+7,La Libertad,Ascope,Casa Grande,si,
+7,La Libertad,Pacasmayo,Guadalupe,si,
+7,La Libertad,Chepén,,si,La matriz nombra la provincia sin distritos: se marca la provincia completa
+8,La Libertad,Otuzco,,si,Provincia completa (la matriz no lista distritos)
+8,La Libertad,Julcán,,si,Provincia completa (la matriz no lista distritos)
+8,La Libertad,Santiago de Chuco,,si,Provincia completa (la matriz no lista distritos)
+8,La Libertad,Gran Chimú,,si,Provincia completa (la matriz no lista distritos)
+8,Cajamarca,Contumazá,,si,Provincia completa (la matriz no lista distritos)
+8,Cajamarca,San Pablo,,si,Provincia completa (la matriz no lista distritos)
+8,Cajamarca,San Miguel,,si,Provincia completa (la matriz no lista distritos)
+8,Cajamarca,Contumazá,Chilete,si,
+8,Cajamarca,Cajamarca,Cajamarca,si,La matriz dice «Cajamarca (laderas)»: se toma el distrito capital
+9,Áncash,Santa,Chimbote,si,
+9,Áncash,Santa,Nuevo Chimbote,si,
+9,Áncash,Santa,Coishco,si,
+9,Áncash,Santa,Santa,si,
+9,Áncash,Casma,Casma,si,
+9,Áncash,Casma,Comandante Noel,si,
+9,Áncash,Huarmey,Huarmey,si,
+9,Áncash,Huarmey,Culebras,si,
+10,Áncash,Huaraz,Huaraz,si,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad
+10,Áncash,Carhuaz,Carhuaz,si,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad
+10,Áncash,Yungay,Yungay,si,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad
+10,Áncash,Huaylas,Caraz,si,La matriz nombra ciudades del Callejón de Huaylas: se toma el distrito de cada ciudad
+10,Áncash,,,no,«Provincias de Conchucos» no indica qué provincias: no se cartografía
+11,Lima,Lima,Lurigancho,si,"La matriz dice «Lurigancho-Chosica» y «Lurigancho (Carapongo, Cajamarquilla, Huachipa)»: es el mismo distrito"
+11,Lima,Lima,Chaclacayo,si,
+11,Lima,Lima,Ate,si,La matriz dice «Ate (Huaycán)»
+11,Lima,Lima,Cieneguilla,si,
+11,Lima,Lima,San Juan de Lurigancho,si,
+11,Lima,Lima,Carabayllo,si,
+11,Lima,Lima,Comas,si,
+11,Lima,Lima,Puente Piedra,si,
+12,Lima,Huarochirí,Matucana,si,
+12,Lima,Huarochirí,San Mateo,si,
+12,Lima,Huarochirí,Santa Eulalia,si,
+12,Lima,Huarochirí,Callahuanca,si,
+12,Lima,Huarochirí,Ricardo Palma,si,
+12,Lima,Huarochirí,San Bartolomé,si,
+12,Lima,Canta,,si,Provincia completa (la matriz no lista distritos)
+12,Lima,Huaral,,si,Provincia completa (la matriz no lista distritos)
+12,Lima,Huaura,,si,Provincia completa (la matriz no lista distritos)
+12,Lima,Barranca,,si,Provincia completa (la matriz no lista distritos)
+12,Lima,Cañete,Lunahuaná,si,
+12,Lima,Yauyos,,si,Provincia completa (la matriz no lista distritos)
+13,Ica,Ica,Ica,si,
+13,Ica,Ica,La Tinguiña,si,
+13,Ica,Ica,Parcona,si,
+13,Ica,Ica,Subtanjalla,si,
+13,Ica,Ica,Los Aquijes,si,
+13,Ica,Ica,Pueblo Nuevo,si,
+13,Ica,Ica,Salas,si,
+13,Ica,Pisco,,si,Provincia completa (la matriz no lista distritos)
+13,Ica,Chincha,,si,Provincia completa (la matriz no lista distritos)
+13,Ica,Palpa,,si,Provincia completa (la matriz no lista distritos)
+13,Ica,Nasca,,si,Provincia completa (la matriz no lista distritos)
+14,Arequipa,Camaná,,si,Provincia completa (la matriz no lista distritos)
+14,Arequipa,Castilla,Aplao,si,
+14,Arequipa,Castilla,Uraca,si,
+14,Arequipa,Caylloma,Majes,si,
+14,Arequipa,Condesuyos,,si,Provincia completa (la matriz no lista distritos)
+14,Arequipa,Caravelí,Ocoña,si,La matriz lo lista en la provincia Caravelí
+14,Arequipa,Caravelí,Chala,si,
+14,Arequipa,Arequipa,Miraflores,si,La matriz dice «Arequipa ciudad (torrenteras de …)»
+14,Arequipa,Arequipa,Mariano Melgar,si,
+14,Arequipa,Arequipa,Paucarpata,si,
+14,Arequipa,Arequipa,Cayma,si,
+15,Cajamarca,Jaén,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,Cajamarca,San Ignacio,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,Cajamarca,Cutervo,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,Amazonas,Bagua,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,Amazonas,Utcubamba,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,Amazonas,Chachapoyas,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,San Martín,Moyobamba,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,San Martín,Rioja,,si,La matriz lista provincias dentro del departamento: provincia completa
+15,San Martín,San Martín,Tarapoto,si,Tarapoto no es provincia: se toma el distrito
+16,Huánuco,Huánuco,,si,Provincia completa (la matriz no lista distritos)
+16,Huánuco,Ambo,,si,Provincia completa (la matriz no lista distritos)
+16,Huánuco,Leoncio Prado,,si,Provincia completa (la matriz no lista distritos)
+16,Pasco,,,si,La matriz nombra el departamento sin detalle: departamento completo
+16,Junín,Chanchamayo,,si,Provincia completa (la matriz no lista distritos)
+16,Junín,Satipo,,si,Provincia completa (la matriz no lista distritos)
+16,Ayacucho,Huamanga,,si,Provincia completa (la matriz no lista distritos)
+16,Ayacucho,Huanta,,si,Provincia completa (la matriz no lista distritos)
+17,Puno,Azángaro,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,Huancané,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,Melgar,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,Lampa,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,San Román,,si,La matriz dice «San Román (zona rural)»: provincia completa
+17,Puno,Puno,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,El Collao,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,Chucuito,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,Moho,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+17,Puno,Carabaya,,si,La matriz habla de 29 distritos sin listarlos: se marcan las 10 provincias completas
+18,Cusco,Espinar,,si,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas
+18,Cusco,Canas,,si,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas
+18,Cusco,Canchis,,si,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas
+18,Cusco,Chumbivilcas,,si,La matriz habla de 13 distritos sin listarlos: se marcan las 4 provincias completas
+19,Arequipa,Caylloma,,si,La matriz dice «Caylloma (zona alta) y 13 distritos»: provincia completa
+19,Apurímac,Aymaraes,,si,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas"
+19,Apurímac,Antabamba,,si,"La matriz dice «3 distritos (Aymaraes/Antabamba, probable)»: provincias completas"
+19,Ayacucho,Lucanas,,si,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas"
+19,Ayacucho,Parinacochas,,si,"La matriz dice «5 distritos (Lucanas/Parinacochas, probable)»: provincias completas"
+19,Huancavelica,,,no,La matriz dice «Huancavelica: 5» sin indicar lugares: no se cartografía
+19,Moquegua,General Sánchez Cerro,,si,La matriz dice «4 (General Sánchez Cerro)»: provincia completa
+19,Tacna,Tarata,,si,"La matriz dice «4 (Tarata, Candarave)»: provincias completas"
+19,Tacna,Candarave,,si,"La matriz dice «4 (Tarata, Candarave)»: provincias completas"
+20,Loreto,Maynas,,si,La matriz dice «Maynas–Iquitos»: provincia completa
+20,Loreto,Alto Amazonas,,si,La matriz dice «Alto Amazonas–Yurimaguas»: provincia completa
+20,Loreto,Datem del Marañón,,si,Provincia completa
+20,Loreto,Requena,,si,Provincia completa
+20,Ucayali,Coronel Portillo,,si,La matriz dice «Coronel Portillo–Pucallpa»: provincia completa
+20,Madre de Dios,,,si,La matriz nombra el departamento sin detalle: departamento completo
+21,Piura,Paita,Paita,si,Puerto de Paita
+21,Piura,Sechura,Sechura,si,Puertos de Sechura y Parachique (Parachique está en el distrito Sechura)
+21,Áncash,Santa,Chimbote,si,Puerto de Chimbote
+21,Callao,Callao,Callao,si,Puerto del Callao
+21,Ica,Pisco,Pisco,si,Puerto de Pisco
+21,Moquegua,Ilo,Ilo,si,Puerto de Ilo
+21,Arequipa,Islay,Islay,si,Puerto de Matarani (capital del distrito Islay)
+21,,,,no,«Caletas artesanales de Tumbes a Tacna» no indica lugares: no se cartografía
+22,,,,no,Escenario de toda la costa urbana (10 departamentos) sin lugares precisos: no se cartografía
+23,Piura,Piura,Castilla,si,Ejemplo de periferia urbana citado por la matriz
+23,Piura,Piura,Veintiséis de Octubre,si,Ejemplo de periferia urbana citado por la matriz
+23,Lambayeque,Chiclayo,José Leonardo Ortiz,si,La matriz dice «JLO»
+23,La Libertad,Trujillo,El Porvenir,si,Ejemplo de periferia urbana citado por la matriz
+23,Ica,Ica,Parcona,si,Ejemplo de periferia urbana citado por la matriz
+23,Loreto,Maynas,Iquitos,si,Ejemplo de periferia urbana citado por la matriz
+23,Ucayali,Coronel Portillo,Callería,si,La matriz dice «Pucallpa»: la ciudad está en el distrito Callería
+23,Cajamarca,Jaén,Jaén,si,La matriz dice «Cajamarca (Jaén)»: se toma el distrito
